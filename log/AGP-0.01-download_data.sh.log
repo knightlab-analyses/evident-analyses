@@ -1,0 +1,12 @@
+[ Mon Feb 28 15:43:20 PST 2022 ] :: Start script
+Mon Feb 28 15:43:20 PST 2022
+/home/grahman/projects/evident-analyses
+b2-005
+[ Mon Feb 28 15:43:21 PST 2022 ] :: Start redbiom metadata search
+[ Mon Feb 28 15:43:55 PST 2022 ] :: Start redbiom fetch samples
+15077 sample ambiguities observed. Writing ambiguity mappings to: data/agp/table.biom.ambiguities
+[ Mon Feb 28 18:01:25 PST 2022 ] :: Start redbiom fetch sample metadata
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/redbiom/commands/fetch.py:106: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead.  To get a de-fragmented frame, use `newframe = frame.copy()`
+  md[key] = ambigs
+15077 sample ambiguities observed. Writing ambiguity mappings to: data/agp/metadata.tsv.ambiguities
+[ Mon Feb 28 18:08:41 PST 2022 ] :: Finished script!

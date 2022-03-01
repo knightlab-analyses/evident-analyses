@@ -1,0 +1,8 @@
+/var/spool/slurmd/job153302/slurm_script:29: DtypeWarning: Columns (0,421,500,593,642) have mixed types. Specify dtype option on import or set low_memory=False.
+  md = pd.read_table(md_file, sep="\t", index_col=0)
+[2022-02-28 18:08:52,553 - filter - INFO] :: Original table shape: (612520, 14240)
+[2022-02-28 18:08:54,079 - filter - INFO] :: Filtered table shape: (3674, 13913)
+[2022-02-28 18:08:54,079 - filter - INFO] :: Filtered metadata shape: (13913, 734)
+[2022-02-28 18:08:55,460 - filter - INFO] :: Saved filtered table to data/agp/table.filt.biom!
+[2022-02-28 18:08:58,548 - filter - INFO] :: Saved filtered metadata to data/agp/metadata.filt.tsv!
+9.904168128967285
