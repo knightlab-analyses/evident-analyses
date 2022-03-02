@@ -1,4 +1,4 @@
-#!/home/grahman/miniconda3/envs/matchlock/bin/python
+#!/home/grahman/miniconda3/envs/evident-analyses/bin/python
 #SBATCH --chdir=/home/grahman/projects/evident-analyses
 #SBATCH --output=/home/grahman/projects/evident-analyses/log/AGP-%x.log
 #SBATCH --partition=short
