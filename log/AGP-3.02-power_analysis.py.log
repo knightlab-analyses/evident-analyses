@@ -1,31 +1,31 @@
-[2022-03-02 12:19:24,251 - evident - INFO] :: Loading distance matrix...
-[2022-03-02 12:20:55,323 - evident - INFO] :: Finished loading distance matrix!
+[2022-03-02 14:45:31,866 - evident - INFO] :: Loading distance matrix...
+[2022-03-02 14:47:02,526 - evident - INFO] :: Finished loading distance matrix!
 /home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/evident/utils.py:20: UserWarning: Data and metadata do not have the same sample IDs. Using 13823 samples common to both.
   warn(msg)
-[2022-03-02 12:21:00,065 - evident - INFO] :: Column: lung_disease
-[2022-03-02 12:21:37,072 - evident - INFO] :: Column: kidney_disease
-[2022-03-02 12:22:09,275 - evident - INFO] :: Column: cardiovascular_disease
-[2022-03-02 12:22:40,984 - evident - INFO] :: Column: liver_disease
-[2022-03-02 12:23:11,974 - evident - INFO] :: Column: skin_condition
-[2022-03-02 12:23:38,740 - evident - INFO] :: Column: ibd
-[2022-03-02 12:24:17,964 - evident - INFO] :: Column: ibs
-[2022-03-02 12:24:38,142 - evident - INFO] :: Column: asd
-[2022-03-02 12:25:10,733 - evident - INFO] :: Column: sex
-[2022-03-02 12:25:34,006 - evident - INFO] :: Column: mental_illness
+[2022-03-02 14:47:07,222 - evident - INFO] :: Column: lung_disease
+[2022-03-02 14:47:43,860 - evident - INFO] :: Column: kidney_disease
+[2022-03-02 14:48:16,003 - evident - INFO] :: Column: cardiovascular_disease
+[2022-03-02 14:48:46,979 - evident - INFO] :: Column: liver_disease
+[2022-03-02 14:49:17,186 - evident - INFO] :: Column: skin_condition
+[2022-03-02 14:49:43,958 - evident - INFO] :: Column: ibd
+[2022-03-02 14:50:22,434 - evident - INFO] :: Column: ibs
+[2022-03-02 14:50:42,898 - evident - INFO] :: Column: asd
+[2022-03-02 14:51:14,352 - evident - INFO] :: Column: sex
+[2022-03-02 14:51:37,826 - evident - INFO] :: Column: mental_illness
    alpha  total_observations     power  ...  difference    metric        column
-0   0.01                  20  0.010928  ...        None  cohens_d  lung_disease
-1   0.05                  20  0.053272  ...        None  cohens_d  lung_disease
-2   0.10                  20  0.105209  ...        None  cohens_d  lung_disease
-3   0.01                  40  0.012164  ...        None  cohens_d  lung_disease
-4   0.05                  40  0.057213  ...        None  cohens_d  lung_disease
+0   0.01                  20  0.010401  ...        None  cohens_d  lung_disease
+1   0.05                  20  0.051328  ...        None  cohens_d  lung_disease
+2   0.10                  20  0.102026  ...        None  cohens_d  lung_disease
+3   0.01                  40  0.010887  ...        None  cohens_d  lung_disease
+4   0.05                  40  0.052812  ...        None  cohens_d  lung_disease
 
 [5 rows x 7 columns]
    alpha  total_observations     power  ...  difference    metric          column
-0   0.01                  20  0.018395  ...        None  cohens_d  kidney_disease
-1   0.05                  20  0.078087  ...        None  cohens_d  kidney_disease
-2   0.10                  20  0.143585  ...        None  cohens_d  kidney_disease
-3   0.01                  40  0.031644  ...        None  cohens_d  kidney_disease
-4   0.05                  40  0.114132  ...        None  cohens_d  kidney_disease
+0   0.01                  20  0.013403  ...        None  cohens_d  kidney_disease
+1   0.05                  20  0.061065  ...        None  cohens_d  kidney_disease
+2   0.10                  20  0.116756  ...        None  cohens_d  kidney_disease
+3   0.01                  40  0.017722  ...        None  cohens_d  kidney_disease
+4   0.05                  40  0.073575  ...        None  cohens_d  kidney_disease
 
 [5 rows x 7 columns]
    alpha  total_observations  ...    metric                  column
@@ -37,39 +37,39 @@
 
 [5 rows x 7 columns]
    alpha  total_observations     power  ...  difference    metric         column
-0   0.01                  20  0.011098  ...        None  cohens_d  liver_disease
-1   0.05                  20  0.053866  ...        None  cohens_d  liver_disease
-2   0.10                  20  0.106150  ...        None  cohens_d  liver_disease
-3   0.01                  40  0.012568  ...        None  cohens_d  liver_disease
-4   0.05                  40  0.058532  ...        None  cohens_d  liver_disease
+0   0.01                  20  0.010474  ...        None  cohens_d  liver_disease
+1   0.05                  20  0.051567  ...        None  cohens_d  liver_disease
+2   0.10                  20  0.102392  ...        None  cohens_d  liver_disease
+3   0.01                  40  0.011048  ...        None  cohens_d  liver_disease
+4   0.05                  40  0.053321  ...        None  cohens_d  liver_disease
 
 [5 rows x 7 columns]
    alpha  total_observations     power  ...  difference    metric          column
-0   0.01                  20  0.010916  ...        None  cohens_d  skin_condition
-1   0.05                  20  0.053230  ...        None  cohens_d  skin_condition
-2   0.10                  20  0.105143  ...        None  cohens_d  skin_condition
-3   0.01                  40  0.012136  ...        None  cohens_d  skin_condition
-4   0.05                  40  0.057122  ...        None  cohens_d  skin_condition
+0   0.01                  20  0.010396  ...        None  cohens_d  skin_condition
+1   0.05                  20  0.051311  ...        None  cohens_d  skin_condition
+2   0.10                  20  0.102001  ...        None  cohens_d  skin_condition
+3   0.01                  40  0.010875  ...        None  cohens_d  skin_condition
+4   0.05                  40  0.052777  ...        None  cohens_d  skin_condition
 
 [5 rows x 7 columns]
    alpha  total_observations     power  effect_size difference    metric column
-0   0.01                  20  0.058699     0.307492       None  cohens_d    ibd
-1   0.05                  20  0.186639     0.307492       None  cohens_d    ibd
-2   0.10                  20  0.294474     0.307492       None  cohens_d    ibd
-3   0.01                  40  0.160951     0.307492       None  cohens_d    ibd
-4   0.05                  40  0.367836     0.307492       None  cohens_d    ibd
+0   0.01                  20  0.026350     0.307492       None  cohens_d    ibd
+1   0.05                  20  0.099873     0.307492       None  cohens_d    ibd
+2   0.10                  20  0.173346     0.307492       None  cohens_d    ibd
+3   0.01                  40  0.050204     0.307492       None  cohens_d    ibd
+4   0.05                  40  0.157586     0.307492       None  cohens_d    ibd
    alpha  total_observations     power  effect_size difference    metric column
-0   0.01                  20  0.024354     0.185853       None  cohens_d    ibs
-1   0.05                  20  0.096397     0.185853       None  cohens_d    ibs
-2   0.10                  20  0.170788     0.185853       None  cohens_d    ibs
-3   0.01                  40  0.049049     0.185853       None  cohens_d    ibs
-4   0.05                  40  0.157553     0.185853       None  cohens_d    ibs
+0   0.01                  20  0.015588     0.185853       None  cohens_d    ibs
+1   0.05                  20  0.067953     0.185853       None  cohens_d    ibs
+2   0.10                  20  0.127039     0.185853       None  cohens_d    ibs
+3   0.01                  40  0.022897     0.185853       None  cohens_d    ibs
+4   0.05                  40  0.088381     0.185853       None  cohens_d    ibs
    alpha  total_observations     power  effect_size difference    metric column
-0   0.01                  20  0.025267     0.190922       None  cohens_d    asd
-1   0.05                  20  0.099107     0.190922       None  cohens_d    asd
-2   0.10                  20  0.174744     0.190922       None  cohens_d    asd
-3   0.01                  40  0.051817     0.190922       None  cohens_d    asd
-4   0.05                  40  0.164017     0.190922       None  cohens_d    asd
+0   0.01                  20  0.015910     0.190922       None  cohens_d    asd
+1   0.05                  20  0.068956     0.190922       None  cohens_d    asd
+2   0.10                  20  0.128527     0.190922       None  cohens_d    asd
+3   0.01                  40  0.023673     0.190922       None  cohens_d    asd
+4   0.05                  40  0.090542     0.190922       None  cohens_d    asd
    alpha  total_observations     power  effect_size difference    metric column
 0   0.01                  20  0.015031     0.176694       None  cohens_d    sex
 1   0.05                  20  0.066213     0.176694       None  cohens_d    sex
@@ -77,11 +77,11 @@
 3   0.01                  40  0.021563     0.176694       None  cohens_d    sex
 4   0.05                  40  0.084631     0.176694       None  cohens_d    sex
    alpha  total_observations     power  ...  difference    metric          column
-0   0.01                  20  0.011009  ...        None  cohens_d  mental_illness
-1   0.05                  20  0.053555  ...        None  cohens_d  mental_illness
-2   0.10                  20  0.105657  ...        None  cohens_d  mental_illness
-3   0.01                  40  0.012356  ...        None  cohens_d  mental_illness
-4   0.05                  40  0.057841  ...        None  cohens_d  mental_illness
+0   0.01                  20  0.010436  ...        None  cohens_d  mental_illness
+1   0.05                  20  0.051442  ...        None  cohens_d  mental_illness
+2   0.10                  20  0.102201  ...        None  cohens_d  mental_illness
+3   0.01                  40  0.010963  ...        None  cohens_d  mental_illness
+4   0.05                  40  0.053054  ...        None  cohens_d  mental_illness
 
 [5 rows x 7 columns]
-Total time: 384.61584210395813
+Total time: 381.0448293685913

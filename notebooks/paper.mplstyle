@@ -1,0 +1,5 @@
+figure.dpi : 300
+figure.facecolor : white
+axes.spines.top : False
+axes.spines.right : False
+savefig.bbox : tight
