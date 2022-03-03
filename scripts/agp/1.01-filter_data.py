@@ -10,8 +10,10 @@ import re
 import time
 
 import biom
+from bloom import remove_seqs, trim_seqs
 import numpy as np
 import pandas as pd
+import skbio
 
 
 def main():
@@ -28,6 +30,11 @@ def main():
     md_file = "data/agp/metadata.tsv"
     md = pd.read_table(md_file, sep="\t", index_col=0)
 
+    bloom_seqs_file = "/home/grahman/software/bloom-analyses/data/newbloom.all.fna"
+    seqs = skbio.read(bloom_seqs_file, format="fasta")
+    length = min(map(len, tbl.ids(axis="observation")))
+    seqs = trim_seqs(seqs, seqlength=length)
+
     logger.info(f"Original table shape: {tbl.shape}")
 
     # Update names of samples with S for string coercion
@@ -39,6 +46,13 @@ def main():
     md = md.loc[samps_in_common]
     tbl.filter(samps_in_common)
 
+    # Bloom filtering
+    # github.com/knightlab-analyses/bloom-analyses/
+    logger.info("Bloom filtering...")
+    tbl = remove_seqs(tbl, seqs)
+    logger.info(f"Bloom filtered table shape: {tbl.shape}")
+
+    logger.info("Filtering features present in fewer than 50 samples...")
     prev = tbl.pa(inplace=False).sum(axis="observation")
     feats_to_keep = tbl.ids(axis="observation")[np.where(prev >= 50)]
     tbl.filter(feats_to_keep, "observation")

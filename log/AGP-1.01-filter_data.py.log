@@ -1,8 +1,11 @@
-/var/spool/slurmd/job153302/slurm_script:29: DtypeWarning: Columns (0,421,500,593,642) have mixed types. Specify dtype option on import or set low_memory=False.
-  md = pd.read_table(md_file, sep="\t", index_col=0)
-[2022-02-28 18:08:52,553 - filter - INFO] :: Original table shape: (612520, 14240)
-[2022-02-28 18:08:54,079 - filter - INFO] :: Filtered table shape: (3674, 13913)
-[2022-02-28 18:08:54,079 - filter - INFO] :: Filtered metadata shape: (13913, 734)
-[2022-02-28 18:08:55,460 - filter - INFO] :: Saved filtered table to data/agp/table.filt.biom!
-[2022-02-28 18:08:58,548 - filter - INFO] :: Saved filtered metadata to data/agp/metadata.filt.tsv!
-9.904168128967285
+/var/spool/slurmd/job158214/slurm_script:75: DtypeWarning: Columns (0,421,500,593,642) have mixed types.Specify dtype option on import or set low_memory=False.
+  main()
+[2022-03-03 07:05:04,622 - filter - INFO] :: Original table shape: (612520, 14240)
+[2022-03-03 07:05:05,428 - filter - INFO] :: Bloom filtering...
+[2022-03-03 07:05:18,815 - filter - INFO] :: Bloom filtered table shape: (612500, 13913)
+[2022-03-03 07:05:18,816 - filter - INFO] :: Filtering features present in fewer than 50 samples...
+[2022-03-03 07:05:19,475 - filter - INFO] :: Filtered table shape: (3658, 13913)
+[2022-03-03 07:05:19,475 - filter - INFO] :: Filtered metadata shape: (13913, 734)
+[2022-03-03 07:05:20,829 - filter - INFO] :: Saved filtered table to data/agp/table.filt.biom!
+[2022-03-03 07:05:23,081 - filter - INFO] :: Saved filtered metadata to data/agp/metadata.filt.tsv!
+22.059271574020386
