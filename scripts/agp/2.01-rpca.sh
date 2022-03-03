@@ -5,6 +5,8 @@
 #SBATCH --mem=12G
 #SBATCH --time=6:00:00
 
+set -e
+
 echo "[ $(date) ] :: Start script"
 date; pwd; hostname
 
@@ -26,7 +28,7 @@ echo "[ $(date) ] :: RPCA finished!"
 
 echo "[ $(date) ] :: Zipping distance matrix..."
 
-gzip $DM
+gzip -f $DM
 
 echo "[ $(date) ] :: Zipping finished!"
 
