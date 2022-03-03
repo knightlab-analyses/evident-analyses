@@ -41,6 +41,8 @@ def main():
         "ibs",
         "asd"
     ]
+    for col in disease_cols:
+        md[col] = md[col].map(disease_map)
 
     mental_illness_map = {
         "TRUE": "Yes",
@@ -50,16 +52,23 @@ def main():
         "Yes": "Yes",
         "No": "No"
     }
+    md["mental_illness"] = md["mental_illness"].map(mental_illness_map)
+
+    # If country is represented by fewer than 5 samples, set to NaN
+    country_counts = md["country"].value_counts()
+    countries_to_rmv = country_counts[country_counts < 5].index
+    md["country"] = md["country"].replace(countries_to_rmv, np.nan)
+
     other_cols = [
         "sex",
-        "mental_illness"
+        "mental_illness",
+        "age_cat",
+        "types_of_plants",
+        "country",
+        "bowel_movement_quality"
     ]
-
-    for col in disease_cols:
-        md[col] = md[col].map(disease_map)
-
-    md["mental_illness"] = md["mental_illness"].map(mental_illness_map)
     md = md[disease_cols + other_cols]
+    md = md.replace("Not provided", np.nan)
 
     out_md = "data/agp/metadata.filt.subset.tsv"
     md.to_csv(out_md, sep="\t", index=True)
