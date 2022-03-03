@@ -1,0 +1,398 @@
+	effect_size	metric	column	group_1	group_2
+0	2.6573581934492214	cohens_d	country	Jersey	Thailand
+1	2.1112508239390446	cohens_d	country	India	Jersey
+2	1.8018045375055647	cohens_d	country	Czech Republic	Jersey
+3	1.6253581511814301	cohens_d	country	Denmark	Jersey
+4	1.5422728297833124	cohens_d	country	Australia	Jersey
+5	1.4551624314404954	cohens_d	country	Greece	Thailand
+6	1.4510836812939483	cohens_d	country	Jersey	Netherlands
+7	1.4197746560667162	cohens_d	country	Japan	Thailand
+8	1.4089602625449966	cohens_d	country	Greece	Jersey
+9	1.3609197225025247	cohens_d	country	Jersey	Morocco
+10	1.3417782003162813	cohens_d	country	Jersey	Philippines
+11	1.221903990589764	cohens_d	country	Jersey	Norway
+12	1.2051878176423159	cohens_d	country	Italy	Jersey
+13	1.2020651152479545	cohens_d	country	Belgium	Jersey
+14	1.1888332135688917	cohens_d	country	Jersey	Spain
+15	1.1745561788421492	cohens_d	country	Singapore	Thailand
+16	1.1497415033157758	cohens_d	country	Jersey	Switzerland
+17	1.0992364149072666	cohens_d	country	Spain	Thailand
+18	1.0890813682252687	cohens_d	country	Austria	Jersey
+19	1.072289509258238	cohens_d	country	Norway	Thailand
+20	1.05190542650356	cohens_d	country	India	Japan
+21	1.0437822582133651	cohens_d	country	Austria	Thailand
+22	1.0242124665231882	cohens_d	country	Denmark	Thailand
+23	1.0064123062810195	cohens_d	country	France	Jersey
+24	1.0015249887131885	cohens_d	country	Canada	Thailand
+25	1.0003634945046953	cohens_d	country	Czech Republic	Japan
+26	0.9734341944621189	cohens_d	country	Switzerland	Thailand
+27	0.9451248483854452	cohens_d	country	Germany	Jersey
+28	0.9308720041344392	cohens_d	country	Czech Republic	Singapore
+29	0.9293473649506172	cohens_d	country	Ireland	Thailand
+30	0.9270374192573758	cohens_d	country	New Zealand	Thailand
+31	0.9166798737616823	cohens_d	country	Jersey	New Zealand
+32	0.9137152625527658	cohens_d	country	Belgium	Thailand
+33	0.8841045344907554	cohens_d	country	Thailand	United Kingdom
+34	0.8652732051138787	cohens_d	country	Thailand	USA
+35	0.8639149637447439	cohens_d	country	Australia	Singapore
+36	0.8602536636489189	cohens_d	country	Greece	India
+37	0.8581020185845121	cohens_d	country	India	Singapore
+38	0.8550843167459907	cohens_d	country	Ireland	Jersey
+39	0.8315022072018479	cohens_d	country	Italy	Thailand
+40	0.8286413105265187	cohens_d	country	Australia	Japan
+41	0.8115074991143914	cohens_d	country	Morocco	Thailand
+42	0.8057544124871469	cohens_d	country	Canada	Jersey
+43	0.7783327988297495	cohens_d	country	Netherlands	Singapore
+44	0.7709686009523187	cohens_d	country	Japan	Netherlands
+45	0.7531535859648656	cohens_d	country	Australia	Thailand
+46	0.7363056900736612	cohens_d	country	France	Thailand
+47	0.7360252157599042	cohens_d	country	Philippines	Singapore
+48	0.7330249041070843	cohens_d	country	Jersey	USA
+49	0.721433264726732	cohens_d	country	Denmark	Japan
+50	0.7183852877994186	cohens_d	ibd	No	Yes
+51	0.7165887316212788	cohens_d	country	Sweden	Thailand
+52	0.7095845699895728	cohens_d	country	Japan	Philippines
+53	0.706240640446067	cohens_d	country	Netherlands	Thailand
+54	0.7027657557386958	cohens_d	country	India	Spain
+55	0.7005774232720702	cohens_d	country	Canada	India
+56	0.6898477774978633	cohens_d	country	Philippines	Thailand
+57	0.6818255841032372	cohens_d	country	India	Norway
+58	0.6806925486165298	cohens_d	country	Jersey	United Kingdom
+59	0.6769183079444218	cohens_d	country	Japan	Morocco
+60	0.6732370492153048	cohens_d	age_cat	40s	70+
+61	0.6658582873742598	cohens_d	country	Austria	India
+62	0.659949320318777	cohens_d	country	Germany	Thailand
+63	0.6555279578865987	cohens_d	country	Denmark	Singapore
+64	0.6355309579392899	cohens_d	age_cat	30s	70+
+65	0.6331396053074421	cohens_d	country	India	Thailand
+66	0.6309117809739633	cohens_d	country	India	Ireland
+67	0.6235964368939884	cohens_d	country	India	United Kingdom
+68	0.6229001637014726	cohens_d	country	Morocco	Singapore
+69	0.6187831411585537	cohens_d	country	India	Switzerland
+70	0.611042706078181	cohens_d	country	Canada	Czech Republic
+71	0.6091547574666817	cohens_d	country	India	New Zealand
+72	0.6029330915635253	cohens_d	age_cat	20s	70+
+73	0.5991880998356995	cohens_d	country	India	USA
+74	0.5812334680965279	cohens_d	country	Greece	Japan
+75	0.5806016436803995	cohens_d	country	Czech Republic	Spain
+76	0.5801788614160963	cohens_d	country	Italy	Japan
+77	0.5798381425392343	cohens_d	country	Japan	Jersey
+78	0.5650484727860955	cohens_d	country	Belgium	Singapore
+79	0.563343844733601	cohens_d	country	Austria	Czech Republic
+80	0.5632864520455315	cohens_d	country	Czech Republic	Norway
+81	0.5581058427596831	cohens_d	country	Belgium	India
+82	0.5511881713826727	cohens_d	country	Jersey	Sweden
+83	0.5494830590985778	cohens_d	country	Italy	Singapore
+84	0.5462971955788053	cohens_d	country	Czech Republic	Ireland
+85	0.5458802018514913	cohens_d	country	Czech Republic	United Kingdom
+86	0.5427065180415701	cohens_d	country	Belgium	Japan
+87	0.5418713958780256	cohens_d	country	Czech Republic	Thailand
+88	0.538641808921636	cohens_d	country	Czech Republic	New Zealand
+89	0.5342439862388552	cohens_d	country	Denmark	India
+90	0.5306653472950695	cohens_d	country	Australia	Sweden
+91	0.5247023504995714	cohens_d	age_cat	70+	teen
+92	0.5198067974864266	cohens_d	country	Czech Republic	USA
+93	0.5187509327879074	cohens_d	country	Singapore	Switzerland
+94	0.5186363500528512	cohens_d	age_cat	50s	70+
+95	0.5146568889060485	cohens_d	country	Norway	Singapore
+96	0.5140291188043976	cohens_d	country	Czech Republic	Switzerland
+97	0.5032565746547111	cohens_d	country	India	Sweden
+98	0.5009883832311975	cohens_d	country	Japan	Norway
+99	0.48929848025178757	cohens_d	country	Japan	Switzerland
+100	0.48809613161773935	cohens_d	country	France	Singapore
+101	0.4744486402394325	cohens_d	country	Greece	Singapore
+102	0.471172330170594	cohens_d	country	Singapore	Spain
+103	0.47033881058318994	cohens_d	country	Japan	Spain
+104	0.47009401885494306	cohens_d	country	Germany	Singapore
+105	0.4683509150901762	cohens_d	country	France	Japan
+106	0.4681585454633863	cohens_d	country	India	Italy
+107	0.4649776363151779	cohens_d	country	Australia	Canada
+108	0.4546518962961705	cohens_d	country	Belgium	Czech Republic
+109	0.4533345849712135	cohens_d	country	Czech Republic	Sweden
+110	0.4486652607189347	cohens_d	country	Germany	Japan
+111	0.44386721397511	cohens_d	country	France	India
+112	0.4353719964904988	cohens_d	country	Australia	Ireland
+113	0.4334020363189667	cohens_d	country	Austria	Japan
+114	0.42911243110183883	cohens_d	country	Czech Republic	Greece
+115	0.42719895853466944	cohens_d	country	Jersey	Singapore
+116	0.422200215788093	cohens_d	country	Austria	Singapore
+117	0.4183674574398761	cohens_d	country	Canada	Netherlands
+118	0.41594662032670787	cohens_d	country	India	Morocco
+119	0.39170486748200967	cohens_d	country	Germany	India
+120	0.39156059586924674	cohens_d	country	Canada	Philippines
+121	0.38112339736449496	cohens_d	country	Australia	New Zealand
+122	0.37959362957373877	cohens_d	country	Philippines	Sweden
+123	0.37871272603241973	cohens_d	country	Netherlands	United Kingdom
+124	0.3737876057917607	cohens_d	country	Czech Republic	Italy
+125	0.37145834131363936	cohens_d	country	Australia	United Kingdom
+126	0.3710274776349477	cohens_d	country	Canada	Morocco
+127	0.370956674264467	cohens_d	country	Australia	India
+128	0.36450465226106704	cohens_d	country	Canada	Denmark
+129	0.3627840417149885	cohens_d	country	New Zealand	Singapore
+130	0.36237809039226804	cohens_d	country	Czech Republic	France
+131	0.3611112483117849	cohens_d	country	Ireland	Netherlands
+132	0.35565512023904533	cohens_d	country	Japan	New Zealand
+133	0.35409925184486396	cohens_d	country	Philippines	United Kingdom
+134	0.35047623867355326	cohens_d	country	India	Philippines
+135	0.34905767567783313	cohens_d	country	Netherlands	USA
+136	0.34534564213841806	cohens_d	country	Netherlands	New Zealand
+137	0.34486388016813024	cohens_d	country	Ireland	Philippines
+138	0.34199579338066294	cohens_d	country	Netherlands	Sweden
+139	0.34104143737008336	cohens_d	country	Australia	USA
+140	0.34078467186671163	cohens_d	country	India	Netherlands
+141	0.3382510047769142	cohens_d	country	Czech Republic	Denmark
+142	0.33823874262181997	cohens_d	country	Morocco	United Kingdom
+143	0.3325397757163504	cohens_d	country	Denmark	United Kingdom
+144	0.32996301478950474	cohens_d	country	Australia	Austria
+145	0.3294136407725361	cohens_d	age_cat	60s	teen
+146	0.327070210038028	cohens_d	country	Ireland	Singapore
+147	0.3239033553288421	cohens_d	country	Philippines	USA
+148	0.322568881038791	cohens_d	country	Australia	Spain
+149	0.3182921813856298	cohens_d	country	Austria	Netherlands
+150	0.3180615940003858	cohens_d	country	Netherlands	Spain
+151	0.31476782672108	cohens_d	country	Czech Republic	Germany
+152	0.31232446517971946	cohens_d	country	New Zealand	Philippines
+153	0.3078909750064548	cohens_d	age_cat	60s	70+
+154	0.30772078576604317	cohens_d	country	Morocco	USA
+155	0.3059439911388906	cohens_d	country	Ireland	Morocco
+156	0.30501852827389225	cohens_d	country	Australia	Norway
+157	0.30460808225278	cohens_d	country	Netherlands	Norway
+158	0.3021182170823508	cohens_d	country	Ireland	Japan
+159	0.3018997022614673	cohens_d	country	Denmark	USA
+160	0.30035245284512296	cohens_d	country	Denmark	Ireland
+161	0.29994089864229223	cohens_d	country	Czech Republic	Morocco
+162	0.2972397617344004	cohens_d	country	Canada	Italy
+163	0.2962333296357527	cohens_d	country	Australia	Switzerland
+164	0.29187611047592227	cohens_d	country	Canada	Greece
+165	0.2861219370198691	cohens_d	country	Netherlands	Switzerland
+166	0.2820252880902133	cohens_d	bowel_movement_quality	I tend to have diarrhea (watery stool)	I tend to have normal formed stool - Type 3 and 4
+167	0.27665055348133166	cohens_d	country	Morocco	Sweden
+168	0.2743694442728819	cohens_d	country	Italy	United Kingdom
+169	0.2733636361977905	cohens_d	country	Denmark	Spain
+170	0.27296102518254395	cohens_d	country	Denmark	New Zealand
+171	0.27274230218265083	cohens_d	country	Morocco	New Zealand
+172	0.27216580939582447	cohens_d	age_cat	40s	60s
+173	0.27203851602327683	cohens_d	country	Denmark	Sweden
+174	0.2719568963956378	cohens_d	country	Canada	Singapore
+175	0.27059340183764824	cohens_d	country	Austria	Philippines
+176	0.2697575727127821	cohens_d	country	Greece	United Kingdom
+177	0.2684840394128689	cohens_d	country	Austria	Denmark
+178	0.2667750343129198	cohens_d	country	Morocco	Spain
+179	0.2656117454250257	cohens_d	country	Philippines	Spain
+180	0.2609822817217262	cohens_d	country	Singapore	USA
+181	0.25882164878775044	cohens_d	country	Austria	Morocco
+182	0.2580467091149317	cohens_d	country	Canada	Germany
+183	0.2569328476328631	cohens_d	country	Australia	Czech Republic
+184	0.2530492612782947	cohens_d	country	Denmark	Norway
+185	0.252982696105802	cohens_d	country	Morocco	Norway
+186	0.2516387277016431	cohens_d	country	Norway	Philippines
+187	0.2501573878234464	cohens_d	country	Czech Republic	Philippines
+188	0.2479194687824141	cohens_d	bowel_movement_quality	I don't know, I do not have a point of reference	I tend to have normal formed stool - Type 3 and 4
+189	0.24669149937206228	cohens_d	country	Philippines	Switzerland
+190	0.24410550976992773	cohens_d	country	Canada	Japan
+191	0.24248409775498722	cohens_d	country	Italy	USA
+192	0.24208228730096537	cohens_d	country	Germany	United Kingdom
+193	0.24094342771916152	cohens_d	country	Canada	France
+194	0.2401173555183765	cohens_d	age_cat	30s	60s
+195	0.2377739298508454	cohens_d	country	Greece	USA
+196	0.23625037505985375	cohens_d	country	Japan	USA
+197	0.2336158073875996	cohens_d	country	Czech Republic	Netherlands
+198	0.23275488130345226	cohens_d	country	Ireland	Italy
+199	0.23205416538430423	cohens_d	country	Australia	Belgium
+200	0.23068704620149755	cohens_d	country	Morocco	Switzerland
+201	0.2275677169174695	cohens_d	age_cat	20s	60s
+202	0.22681758743483335	cohens_d	country	Greece	Ireland
+203	0.22618474743677533	cohens_d	country	Belgium	Canada
+204	0.22590688872841094	cohens_d	country	France	United Kingdom
+205	0.22585578785744806	cohens_d	country	Belgium	Netherlands
+206	0.22536250455751342	cohens_d	country	Italy	Sweden
+207	0.22534667727318414	cohens_d	country	Germany	Sweden
+208	0.2239351832161732	cohens_d	country	Denmark	Switzerland
+209	0.21854421200306678	cohens_d	country	Singapore	United Kingdom
+210	0.21589222146716452	cohens_d	country	Greece	Sweden
+211	0.21290917023017664	cohens_d	bowel_movement_quality	I tend to have normal formed stool	I tend to have normal formed stool - Type 3 and 4
+212	0.21233695660002447	cohens_d	country	Belgium	United Kingdom
+213	0.21107395364105014	cohens_d	country	Australia	France
+214	0.2095047387725398	cohens_d	country	Germany	USA
+215	0.2079502942042213	cohens_d	country	France	Sweden
+216	0.20365378257833394	cohens_d	country	Belgium	Sweden
+217	0.1946887550620239	cohens_d	country	Italy	New Zealand
+218	0.1946606842403759	cohens_d	bowel_movement_quality	I tend to have diarrhea (watery stool) - Type 5, 6 and 7	I tend to have normal formed stool - Type 3 and 4
+219	0.19433102511233244	cohens_d	country	Japan	United Kingdom
+220	0.19298208301385406	cohens_d	country	France	USA
+221	0.18843514493259433	cohens_d	bowel_movement_quality	I tend to be constipated (have difficulty passing stool)	I tend to have normal formed stool - Type 3 and 4
+222	0.18719843819538473	cohens_d	country	Greece	New Zealand
+223	0.1857407635824373	cohens_d	country	Belgium	Philippines
+224	0.1852864332425385	cohens_d	country	Australia	Germany
+225	0.18455021519256132	cohens_d	types_of_plants	11 to 20	21 to 30
+226	0.18401156830652635	cohens_d	age_cat	50s	60s
+227	0.18392709003397315	cohens_d	country	Sweden	Switzerland
+228	0.18387616196958317	cohens_d	country	Germany	Ireland
+229	0.1791854830659448	cohens_d	country	France	Netherlands
+230	0.17911963133241365	cohens_d	country	Belgium	USA
+231	0.17850867455312303	cohens_d	country	Singapore	Sweden
+232	0.17751465349689785	cohens_d	asd	No	Yes
+233	0.17589756261211809	cohens_d	country	Canada	Switzerland
+234	0.1749867003335116	cohens_d	country	Greece	Spain
+235	0.17492856933486584	cohens_d	country	France	Ireland
+236	0.17195077100582573	cohens_d	kidney_disease	No	Yes
+237	0.1703999132725025	cohens_d	country	Italy	Spain
+238	0.16993468522921718	cohens_d	country	Belgium	Morocco
+239	0.16992107280298577	cohens_d	country	Austria	Greece
+240	0.16864777746212198	cohens_d	country	Belgium	Ireland
+241	0.16861272169193192	cohens_d	country	Canada	Norway
+242	0.16809151939412717	cohens_d	country	Switzerland	United Kingdom
+243	0.1676643063363993	cohens_d	country	Austria	Italy
+244	0.1642227490408233	cohens_d	country	Belgium	Denmark
+245	0.1627968459261803	cohens_d	country	Norway	United Kingdom
+246	0.16171211629059326	cohens_d	age_cat	50s	teen
+247	0.16169853945426738	cohens_d	country	Japan	Sweden
+248	0.1612964552304425	cohens_d	ibs	No	Yes
+249	0.16008309973132123	cohens_d	antibiotic_history	6 months	I have not taken antibiotics in the past year.
+250	0.15766266786652522	cohens_d	country	France	Philippines
+251	0.15749468449577284	cohens_d	country	Italy	Norway
+252	0.15739197490224965	cohens_d	country	Greece	Norway
+253	0.15706814608434205	cohens_d	bowel_movement_quality	I tend to be constipated (have difficulty passing stool) - Type 1 and 2	I tend to have diarrhea (watery stool)
+254	0.1546414304562775	cohens_d	country	Canada	Spain
+255	0.15091198277310192	cohens_d	country	Greece	Netherlands
+256	0.15082922925984074	cohens_d	country	Spain	United Kingdom
+257	0.1503343807795349	cohens_d	sex	female	male
+258	0.14869642608263184	cohens_d	country	Austria	Canada
+259	0.14813163039906216	cohens_d	country	Australia	Greece
+260	0.14575066123808064	cohens_d	country	Austria	United Kingdom
+261	0.14554756667433866	cohens_d	country	Germany	Netherlands
+262	0.14414669837323973	cohens_d	bowel_movement_quality	I tend to be constipated (have difficulty passing stool) - Type 1 and 2	I tend to have normal formed stool - Type 3 and 4
+263	0.14379321552037905	cohens_d	country	Norway	Sweden
+264	0.14370347321630028	cohens_d	country	Italy	Switzerland
+265	0.14277010312884758	cohens_d	types_of_plants	11 to 20	Less than 5
+266	0.14160899262600343	cohens_d	types_of_plants	11 to 20	6 to 10
+267	0.14133858415738249	cohens_d	country	Italy	Netherlands
+268	0.14132002547260314	cohens_d	country	Australia	Italy
+269	0.13800332653547792	cohens_d	country	Greece	Switzerland
+270	0.1360235898986188	cohens_d	country	Germany	New Zealand
+271	0.13586650906253472	cohens_d	antibiotic_history	6 months	Week
+272	0.1339208497772107	cohens_d	country	Switzerland	USA
+273	0.13228159743301748	cohens_d	antibiotic_history	I have not taken antibiotics in the past year.	Month
+274	0.13227476423054765	cohens_d	country	Belgium	New Zealand
+275	0.13142821050377218	cohens_d	antibiotic_history	I have not taken antibiotics in the past year.	Year
+276	0.13085327732501673	cohens_d	age_cat	30s	teen
+277	0.12887883159659522	cohens_d	country	France	New Zealand
+278	0.12852163142614204	cohens_d	country	Norway	USA
+279	0.12843383814046103	cohens_d	bowel_movement_quality	I tend to be constipated (have difficulty passing stool)	I tend to have diarrhea (watery stool)
+280	0.12798165974681636	cohens_d	country	Germany	Philippines
+281	0.12698754111903662	cohens_d	country	Spain	Sweden
+282	0.12601862610483805	cohens_d	country	France	Morocco
+283	0.12434524031019402	cohens_d	age_cat	20s	teen
+284	0.12291438766758891	cohens_d	country	Czech Republic	India
+285	0.12123938407419366	cohens_d	country	Ireland	Switzerland
+286	0.12025240373148607	cohens_d	country	Denmark	France
+287	0.1194757130018629	cohens_d	country	Austria	Sweden
+288	0.11752335822726571	cohens_d	bowel_movement_quality	I don't know, I do not have a point of reference	I tend to be constipated (have difficulty passing stool) - Type 1 and 2
+289	0.11629866278308561	cohens_d	country	Spain	USA
+290	0.11256905893814972	cohens_d	country	Denmark	Greece
+291	0.11111177202777267	cohens_d	country	Austria	USA
+292	0.11061200582179813	cohens_d	country	New Zealand	United Kingdom
+293	0.10954695024328924	cohens_d	country	Greece	Philippines
+294	0.10806471330962034	cohens_d	country	Canada	New Zealand
+295	0.10801762353758383	cohens_d	country	Ireland	Norway
+296	0.10332246109528614	cohens_d	country	Italy	Philippines
+297	0.10238103474840324	cohens_d	bowel_movement_quality	I tend to have diarrhea (watery stool)	I tend to have diarrhea (watery stool) - Type 5, 6 and 7
+298	0.0996492563268578	cohens_d	country	Austria	Germany
+299	0.09913242125023557	cohens_d	country	Germany	Morocco
+300	0.0979245116867367	cohens_d	bowel_movement_quality	I tend to have diarrhea (watery stool)	I tend to have normal formed stool
+301	0.09778563362658846	cohens_d	types_of_plants	11 to 20	More than 30
+302	0.09738083317617804	cohens_d	country	Greece	Morocco
+303	0.09648478061201135	cohens_d	age_cat	40s	teen
+304	0.09606033028470369	cohens_d	antibiotic_history	Month	Week
+305	0.09559956945785399	cohens_d	types_of_plants	21 to 30	More than 30
+306	0.09534272370463517	cohens_d	country	Germany	Spain
+307	0.09432129472164245	cohens_d	antibiotic_history	Week	Year
+308	0.0934217007241007	cohens_d	country	Denmark	Germany
+309	0.0926416191232078	cohens_d	country	Ireland	Spain
+310	0.09181714563256684	cohens_d	country	New Zealand	Sweden
+311	0.09032026324374172	cohens_d	country	Austria	France
+312	0.08966330393238611	cohens_d	country	Austria	Belgium
+313	0.08640342761072094	cohens_d	country	Germany	Switzerland
+314	0.08605483733010096	cohens_d	country	France	Spain
+315	0.08594575629385559	cohens_d	country	Austria	Ireland
+316	0.08589204953273513	cohens_d	bowel_movement_quality	I tend to be constipated (have difficulty passing stool) - Type 1 and 2	I tend to have normal formed stool
+317	0.0842655532130856	cohens_d	country	Germany	Norway
+318	0.08394667711942189	cohens_d	country	Belgium	Spain
+319	0.08355137224299522	cohens_d	country	Italy	Morocco
+320	0.08312613574691582	cohens_d	country	Belgium	Italy
+321	0.0813791677461598	cohens_d	country	Denmark	Italy
+322	0.08099782891926591	cohens_d	age_cat	40s	50s
+323	0.07937530481216865	cohens_d	bowel_movement_quality	I don't know, I do not have a point of reference	I tend to be constipated (have difficulty passing stool)
+324	0.07773637019533709	cohens_d	country	Belgium	Greece
+325	0.07671108564135413	cohens_d	country	New Zealand	Switzerland
+326	0.07522084136092483	cohens_d	country	New Zealand	USA
+327	0.07493957307671922	cohens_d	lung_disease	No	Yes
+328	0.07412895366320808	cohens_d	country	France	Norway
+329	0.07326779769360071	cohens_d	country	France	Switzerland
+330	0.07078092506404772	cohens_d	country	Ireland	United Kingdom
+331	0.06864119860028602	cohens_d	country	New Zealand	Norway
+332	0.0682827749047191	cohens_d	country	Belgium	Norway
+333	0.06757187373430047	cohens_d	country	Ireland	Sweden
+334	0.06688462509189211	cohens_d	mental_illness	No	Yes
+335	0.06492983121673415	cohens_d	country	Denmark	Netherlands
+336	0.06336322144933583	cohens_d	skin_condition	No	Yes
+337	0.06264299815331427	cohens_d	bowel_movement_quality	I don't know, I do not have a point of reference	I tend to have diarrhea (watery stool) - Type 5, 6 and 7
+338	0.06201860171546696	cohens_d	country	Canada	Ireland
+339	0.05990453082695086	cohens_d	country	Belgium	Switzerland
+340	0.05719252723694197	cohens_d	bowel_movement_quality	I tend to be constipated (have difficulty passing stool) - Type 1 and 2	I tend to have diarrhea (watery stool) - Type 5, 6 and 7
+341	0.056037443220525104	cohens_d	country	Australia	Denmark
+342	0.05559274456237973	cohens_d	country	Morocco	Netherlands
+343	0.054341497269464314	cohens_d	country	France	Italy
+344	0.05100876577854771	cohens_d	types_of_plants	Less than 5	More than 30
+345	0.050863760732850205	cohens_d	country	New Zealand	Spain
+346	0.05045030560866956	cohens_d	bowel_movement_quality	I tend to be constipated (have difficulty passing stool)	I tend to be constipated (have difficulty passing stool) - Type 1 and 2
+347	0.050205222626155996	cohens_d	bowel_movement_quality	I don't know, I do not have a point of reference	I tend to have normal formed stool
+348	0.04883592444048724	cohens_d	country	France	Greece
+349	0.04824282744933867	cohens_d	age_cat	30s	50s
+350	0.0476646874978675	cohens_d	country	Australia	Morocco
+351	0.0472401055696333	cohens_d	age_cat	20s	50s
+352	0.04653552775985	cohens_d	types_of_plants	21 to 30	6 to 10
+353	0.04560191348298789	cohens_d	liver_disease	No	Yes
+354	0.04550705961343288	cohens_d	types_of_plants	6 to 10	More than 30
+355	0.04541870985320667	cohens_d	bowel_movement_quality	I don't know, I do not have a point of reference	I tend to have diarrhea (watery stool)
+356	0.04540061142914303	cohens_d	country	Ireland	New Zealand
+357	0.0442022740268044	cohens_d	antibiotic_history	I have not taken antibiotics in the past year.	Week
+358	0.04249908107616342	cohens_d	types_of_plants	21 to 30	Less than 5
+359	0.04245272567717315	cohens_d	country	Austria	New Zealand
+360	0.03762350063376646	cohens_d	country	USA	United Kingdom
+361	0.035076404348697875	cohens_d	country	Sweden	USA
+362	0.03488742249327405	cohens_d	age_cat	30s	40s
+363	0.03453550545521454	cohens_d	country	Ireland	USA
+364	0.03361713361001926	cohens_d	age_cat	20s	40s
+365	0.03331157667506424	cohens_d	country	Germany	Italy
+366	0.0328479966582796	cohens_d	bowel_movement_quality	I tend to be constipated (have difficulty passing stool)	I tend to have normal formed stool
+367	0.0324791036502614	cohens_d	country	Belgium	Germany
+368	0.03223553892298355	cohens_d	country	Netherlands	Philippines
+369	0.03201046120989605	cohens_d	antibiotic_history	6 months	Month
+370	0.031911172946318817	cohens_d	antibiotic_history	6 months	Year
+371	0.03024452424819866	cohens_d	country	Austria	Switzerland
+372	0.028384155931520907	cohens_d	country	Germany	Greece
+373	0.028094974007798344	cohens_d	country	Denmark	Philippines
+374	0.025455589238038773	cohens_d	country	Japan	Singapore
+375	0.024302254855883613	cohens_d	country	Australia	Philippines
+376	0.02429436168732329	cohens_d	country	Austria	Norway
+377	0.023485275562485985	cohens_d	country	Spain	Switzerland
+378	0.022196074025981342	cohens_d	bowel_movement_quality	I tend to have diarrhea (watery stool) - Type 5, 6 and 7	I tend to have normal formed stool
+379	0.020577902800136442	cohens_d	country	Morocco	Philippines
+380	0.020360421280961227	cohens_d	country	Canada	USA
+381	0.01741783068027892	cohens_d	country	Norway	Spain
+382	0.017046324764687693	cohens_d	country	Canada	United Kingdom
+383	0.016976626599613517	cohens_d	country	France	Germany
+384	0.01684395078186765	cohens_d	cardiovascular_disease	No	Yes
+385	0.016443794967701694	cohens_d	country	Canada	Sweden
+386	0.016295236299934443	cohens_d	country	Belgium	France
+387	0.011689941425586069	cohens_d	country	Australia	Netherlands
+388	0.008548822065493481	cohens_d	country	Denmark	Morocco
+389	0.007225154543577207	cohens_d	country	Norway	Switzerland
+390	0.007115266475950106	cohens_d	country	Austria	Spain
+391	0.006298799170875412	cohens_d	bowel_movement_quality	I tend to be constipated (have difficulty passing stool)	I tend to have diarrhea (watery stool) - Type 5, 6 and 7
+392	0.006062177473773282	cohens_d	country	Greece	Italy
+393	0.005284659000266085	cohens_d	types_of_plants	6 to 10	Less than 5
+394	0.0026260228471851506	cohens_d	country	Sweden	United Kingdom
+395	0.0013494717059330426	cohens_d	antibiotic_history	Month	Year
+396	0.0009785302617536294	cohens_d	age_cat	20s	30s

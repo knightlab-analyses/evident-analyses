@@ -65,7 +65,8 @@ def main():
         "age_cat",
         "types_of_plants",
         "country",
-        "bowel_movement_quality"
+        "bowel_movement_quality",
+        "antibiotic_history"
     ]
     md = md[disease_cols + other_cols]
     md = md.replace("Not provided", np.nan)

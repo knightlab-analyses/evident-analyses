@@ -1,21 +1,22 @@
-[2022-03-03 07:57:40,281 - evident - INFO] :: Loading distance matrix...
-[2022-03-03 07:59:11,747 - evident - INFO] :: Finished loading distance matrix!
+[2022-03-03 11:16:56,331 - evident - INFO] :: Loading distance matrix...
+[2022-03-03 11:18:27,097 - evident - INFO] :: Finished loading distance matrix!
 /home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/evident/utils.py:20: UserWarning: Data and metadata do not have the same sample IDs. Using 13727 samples common to both.
   warn(msg)
-[2022-03-03 07:59:17,700 - evident - INFO] :: Column: lung_disease
-[2022-03-03 07:59:56,906 - evident - INFO] :: Column: kidney_disease
-[2022-03-03 08:00:31,006 - evident - INFO] :: Column: cardiovascular_disease
-[2022-03-03 08:01:04,321 - evident - INFO] :: Column: liver_disease
-[2022-03-03 08:01:36,594 - evident - INFO] :: Column: skin_condition
-[2022-03-03 08:02:04,795 - evident - INFO] :: Column: ibd
-[2022-03-03 08:02:45,739 - evident - INFO] :: Column: ibs
-[2022-03-03 08:03:06,773 - evident - INFO] :: Column: asd
-[2022-03-03 08:03:40,430 - evident - INFO] :: Column: sex
-[2022-03-03 08:04:04,528 - evident - INFO] :: Column: mental_illness
-[2022-03-03 08:04:20,174 - evident - INFO] :: Column: age_cat
-[2022-03-03 08:04:30,343 - evident - INFO] :: Column: types_of_plants
-[2022-03-03 08:04:39,478 - evident - INFO] :: Column: country
-[2022-03-03 08:05:02,282 - evident - INFO] :: Column: bowel_movement_quality
+[2022-03-03 11:18:32,294 - evident - INFO] :: Column: lung_disease
+[2022-03-03 11:19:13,115 - evident - INFO] :: Column: kidney_disease
+[2022-03-03 11:19:47,231 - evident - INFO] :: Column: cardiovascular_disease
+[2022-03-03 11:20:20,414 - evident - INFO] :: Column: liver_disease
+[2022-03-03 11:20:52,968 - evident - INFO] :: Column: skin_condition
+[2022-03-03 11:21:21,939 - evident - INFO] :: Column: ibd
+[2022-03-03 11:22:04,014 - evident - INFO] :: Column: ibs
+[2022-03-03 11:22:27,635 - evident - INFO] :: Column: asd
+[2022-03-03 11:23:01,772 - evident - INFO] :: Column: sex
+[2022-03-03 11:23:26,314 - evident - INFO] :: Column: mental_illness
+[2022-03-03 11:23:41,877 - evident - INFO] :: Column: age_cat
+[2022-03-03 11:23:52,585 - evident - INFO] :: Column: types_of_plants
+[2022-03-03 11:24:01,718 - evident - INFO] :: Column: country
+[2022-03-03 11:24:24,857 - evident - INFO] :: Column: bowel_movement_quality
+[2022-03-03 11:24:40,796 - evident - INFO] :: Column: antibiotic_history
    alpha  total_observations     power  ...  difference    metric        column
 0   0.01                  20  0.010878  ...        None  cohens_d  lung_disease
 1   0.05                  20  0.052895  ...        None  cohens_d  lung_disease
@@ -120,4 +121,12 @@
 4   0.05                  40  ...  cohens_f  bowel_movement_quality
 
 [5 rows x 7 columns]
-Total time: 457.75745964050293
+   alpha  total_observations     power  ...  difference    metric              column
+0   0.01                  20  0.010256  ...        None  cohens_f  antibiotic_history
+1   0.05                  20  0.050963  ...        None  cohens_f  antibiotic_history
+2   0.10                  20  0.101596  ...        None  cohens_f  antibiotic_history
+3   0.01                  40  0.010638  ...        None  cohens_f  antibiotic_history
+4   0.05                  40  0.052261  ...        None  cohens_f  antibiotic_history
+
+[5 rows x 7 columns]
+Total time: 490.46417236328125

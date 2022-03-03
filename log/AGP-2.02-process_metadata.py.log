@@ -1,4 +1,4 @@
-/var/spool/slurmd/job158219/slurm_script:81: DtypeWarning: Columns (421,500,593,642) have mixed types.Specify dtype option on import or set low_memory=False.
+/var/spool/slurmd/job158224/slurm_script:82: DtypeWarning: Columns (421,500,593,642) have mixed types.Specify dtype option on import or set low_memory=False.
   main()
-[2022-03-03 07:44:18,649 - process - INFO] :: Saved metadata subset to data/agp/metadata.filt.subset.tsv!
-1.233252763748169
+[2022-03-03 10:56:29,723 - process - INFO] :: Saved metadata subset to data/agp/metadata.filt.subset.tsv!
+1.322711706161499
