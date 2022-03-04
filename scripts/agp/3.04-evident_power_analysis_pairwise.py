@@ -45,6 +45,9 @@ def main():
     for col in md:
         logger.info(f"===== Column: {col} =====")
         uniq_grps = md[col].dropna().unique()
+        if len(uniq_grps) == 2:
+            logger.info("Only two levels, skipping")
+            continue
         this_out_dir = f"{out_dir}/{col}"
         os.makedirs(this_out_dir, exist_ok=True)
         for grp1, grp2 in combinations(uniq_grps, 2):
@@ -52,15 +55,19 @@ def main():
 
             # Everything else should be NaN
             pwise_map = {grp: grp for grp in uniq_grps if grp in [grp1, grp2]}
-            bdh.metadata["tmp_col"] = bdh.metadata[col].map(pwise_map)
-            logger.info(f"\n{bdh.metadata['tmp_col'].value_counts()}")
-            res = bdh.power_analysis("tmp_col", alpha=alpha,
-                                     total_observations=total_observations)
-            res = res.to_dataframe()
 
             grp1_fname = grp1.replace(" ", "_")
             grp2_fname = grp2.replace(" ", "_")
-            fname = f"{this_out_dir}/{grp1_fname}_vs_{grp2_fname}_power.tsv"
+            # Need a new colname each time to avoid caching
+            comp_name = f"{col}_{grp1_fname}_vs_{grp2_fname}"
+            bdh.metadata[comp_name] = bdh.metadata[col].map(pwise_map)
+            counts = bdh.metadata[comp_name].value_counts()
+            logger.info(f"\n{counts}")
+            res = bdh.power_analysis(comp_name, alpha=alpha,
+                                     total_observations=total_observations)
+            res = res.to_dataframe()
+
+            fname = f"{this_out_dir}/{comp_name}_power.tsv"
             res.to_csv(fname, sep="\t")
             logger.info(f"\n{res.head()}")
             logger.info(f"Saved to {fname}!")

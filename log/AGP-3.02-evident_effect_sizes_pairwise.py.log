@@ -1,9 +1,9 @@
-[2022-03-03 11:08:35,295 - evident - INFO] :: Loading distance matrix...
-[2022-03-03 11:10:06,296 - evident - INFO] :: Finished loading distance matrix!
+[2022-03-03 14:26:32,971 - evident - INFO] :: Loading distance matrix...
+[2022-03-03 14:28:02,396 - evident - INFO] :: Finished loading distance matrix!
 /home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/evident/utils.py:20: UserWarning: Data and metadata do not have the same sample IDs. Using 13727 samples common to both.
   warn(msg)
-[2022-03-03 11:10:11,261 - evident - INFO] :: Calculating pairwise effect sizes...
-[2022-03-03 11:16:41,967 - evident - INFO] :: Finished calculating pairwise effect sizes!
+[2022-03-03 14:28:07,168 - evident - INFO] :: Calculating pairwise effect sizes...
+[2022-03-03 14:34:29,959 - evident - INFO] :: Finished calculating pairwise effect sizes!
      effect_size    metric              column         group_1         group_2
 0       2.657358  cohens_d             country          Jersey        Thailand
 1       2.111251  cohens_d             country           India          Jersey
@@ -11,11 +11,11 @@
 3       1.625358  cohens_d             country         Denmark          Jersey
 4       1.542273  cohens_d             country       Australia          Jersey
 ..           ...       ...                 ...             ...             ...
-392     0.006062  cohens_d             country          Greece           Italy
-393     0.005285  cohens_d     types_of_plants         6 to 10     Less than 5
-394     0.002626  cohens_d             country          Sweden  United Kingdom
-395     0.001349  cohens_d  antibiotic_history           Month            Year
-396     0.000979  cohens_d             age_cat             20s             30s
+374     0.006062  cohens_d             country          Greece           Italy
+375     0.005285  cohens_d     types_of_plants         6 to 10     Less than 5
+376     0.002626  cohens_d             country          Sweden  United Kingdom
+377     0.001349  cohens_d  antibiotic_history           Month            Year
+378     0.000979  cohens_d             age_cat             20s             30s
 
-[397 rows x 5 columns]
-Total time: 486.92475414276123
+[379 rows x 5 columns]
+Total time: 477.3058760166168

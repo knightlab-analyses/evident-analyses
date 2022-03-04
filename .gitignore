@@ -4,3 +4,4 @@
 data/
 slurm_out/
 results/agp/rpca/
+results/agp/power/pairwise/*/*.tsv

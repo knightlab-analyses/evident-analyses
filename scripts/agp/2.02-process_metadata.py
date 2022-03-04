@@ -54,6 +54,16 @@ def main():
     }
     md["mental_illness"] = md["mental_illness"].map(mental_illness_map)
 
+    bowel_map = {
+        "I tend to have normal formed stool - Type 3 and 4": "Normal",
+        "I tend to have diarrhea (watery stool) - Type 5, 6 and 7": "Diarrhea",
+        "I tend to have normal formed stool": "Normal",
+        "I tend to be constipated (have difficulty passing stool) - Type 1 and 2": "Constipation",
+        "I tend to have diarrhea (watery stool)": "Diarrhea",
+        "I tend to be constipated (have difficulty passing stool)": "Constipation",
+    }
+    md["bowel_movement_quality"] = md["bowel_movement_quality"].map(bowel_map)
+
     # If country is represented by fewer than 5 samples, set to NaN
     country_counts = md["country"].value_counts()
     countries_to_rmv = country_counts[country_counts < 5].index
