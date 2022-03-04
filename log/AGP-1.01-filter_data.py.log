@@ -1,0 +1,11 @@
+/var/spool/slurmd/job158217/slurm_script:75: DtypeWarning: Columns (0,421,500,593,642) have mixed types.Specify dtype option on import or set low_memory=False.
+  main()
+[2022-03-03 07:43:57,131 - filter - INFO] :: Original table shape: (612520, 14240)
+[2022-03-03 07:43:58,044 - filter - INFO] :: Bloom filtering...
+[2022-03-03 07:44:11,454 - filter - INFO] :: Bloom filtered table shape: (612500, 13913)
+[2022-03-03 07:44:11,455 - filter - INFO] :: Filtering features present in fewer than 50 samples...
+[2022-03-03 07:44:12,125 - filter - INFO] :: Filtered table shape: (3658, 13913)
+[2022-03-03 07:44:12,126 - filter - INFO] :: Filtered metadata shape: (13913, 734)
+[2022-03-03 07:44:13,533 - filter - INFO] :: Saved filtered table to data/agp/table.filt.biom!
+[2022-03-03 07:44:15,862 - filter - INFO] :: Saved filtered metadata to data/agp/metadata.filt.tsv!
+22.322277069091797

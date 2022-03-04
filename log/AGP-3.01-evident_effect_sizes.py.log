@@ -1,0 +1,23 @@
+[2022-03-03 14:26:22,671 - evident - INFO] :: Loading distance matrix...
+[2022-03-03 14:27:52,479 - evident - INFO] :: Finished loading distance matrix!
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/evident/utils.py:20: UserWarning: Data and metadata do not have the same sample IDs. Using 13727 samples common to both.
+  warn(msg)
+[2022-03-03 14:27:57,210 - evident - INFO] :: Calculating effect sizes...
+[2022-03-03 14:34:07,236 - evident - INFO] :: Finished calculating effect sizes!
+    effect_size    metric                  column
+0      0.718385  cohens_d                     ibd
+1      0.177515  cohens_d                     asd
+2      0.171951  cohens_d          kidney_disease
+3      0.161296  cohens_d                     ibs
+4      0.150334  cohens_d                     sex
+5      0.074940  cohens_d            lung_disease
+6      0.066885  cohens_d          mental_illness
+7      0.063363  cohens_d          skin_condition
+8      0.045602  cohens_d           liver_disease
+9      0.016844  cohens_d  cardiovascular_disease
+10     0.106376  cohens_f                 age_cat
+11     0.079721  cohens_f         types_of_plants
+12     0.038272  cohens_f  bowel_movement_quality
+13     0.036132  cohens_f      antibiotic_history
+14     0.018854  cohens_f                 country
+Total time: 464.7259907722473

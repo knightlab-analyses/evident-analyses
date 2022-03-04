@@ -1,0 +1,380 @@
+	effect_size	metric	column	group_1	group_2
+0	2.6573581934492227	cohens_d	country	Jersey	Thailand
+1	2.111250823939046	cohens_d	country	India	Jersey
+2	1.8018045375055667	cohens_d	country	Czech Republic	Jersey
+3	1.6253581511814312	cohens_d	country	Denmark	Jersey
+4	1.5422728297833135	cohens_d	country	Australia	Jersey
+5	1.4551624314404945	cohens_d	country	Greece	Thailand
+6	1.4510836812939492	cohens_d	country	Jersey	Netherlands
+7	1.419774656066716	cohens_d	country	Japan	Thailand
+8	1.4089602625449982	cohens_d	country	Greece	Jersey
+9	1.360919722502526	cohens_d	country	Jersey	Morocco
+10	1.3417782003162826	cohens_d	country	Jersey	Philippines
+11	1.2219039905897648	cohens_d	country	Jersey	Norway
+12	1.2051878176423167	cohens_d	country	Italy	Jersey
+13	1.2020651152479553	cohens_d	country	Belgium	Jersey
+14	1.1888332135688928	cohens_d	country	Jersey	Spain
+15	1.1745561788421492	cohens_d	country	Singapore	Thailand
+16	1.149741503315777	cohens_d	country	Jersey	Switzerland
+17	1.0992364149072669	cohens_d	country	Spain	Thailand
+18	1.0890813682252698	cohens_d	country	Austria	Jersey
+19	1.072289509258238	cohens_d	country	Norway	Thailand
+20	1.0519054265035597	cohens_d	country	India	Japan
+21	1.0437822582133651	cohens_d	country	Austria	Thailand
+22	1.0242124665231882	cohens_d	country	Denmark	Thailand
+23	1.0064123062810204	cohens_d	country	France	Jersey
+24	1.0015249887131883	cohens_d	country	Canada	Thailand
+25	1.0003634945046953	cohens_d	country	Czech Republic	Japan
+26	0.9734341944621189	cohens_d	country	Switzerland	Thailand
+27	0.9451248483854455	cohens_d	country	Germany	Jersey
+28	0.9308720041344396	cohens_d	country	Czech Republic	Singapore
+29	0.9293473649506168	cohens_d	country	Ireland	Thailand
+30	0.9270374192573756	cohens_d	country	New Zealand	Thailand
+31	0.9166798737616831	cohens_d	country	Jersey	New Zealand
+32	0.9137152625527656	cohens_d	country	Belgium	Thailand
+33	0.8841045344907581	cohens_d	country	Thailand	United Kingdom
+34	0.8652732051138715	cohens_d	country	Thailand	USA
+35	0.8639149637447439	cohens_d	country	Australia	Singapore
+36	0.8602536636489179	cohens_d	country	Greece	India
+37	0.8581020185845121	cohens_d	country	India	Singapore
+38	0.8550843167459921	cohens_d	country	Ireland	Jersey
+39	0.8315022072018479	cohens_d	country	Italy	Thailand
+40	0.8286413105265181	cohens_d	country	Australia	Japan
+41	0.8115074991143915	cohens_d	country	Morocco	Thailand
+42	0.8057544124871483	cohens_d	country	Canada	Jersey
+43	0.7783327988297495	cohens_d	country	Netherlands	Singapore
+44	0.770968600952318	cohens_d	country	Japan	Netherlands
+45	0.7531535859648656	cohens_d	country	Australia	Thailand
+46	0.7363056900736612	cohens_d	country	France	Thailand
+47	0.7360252157599046	cohens_d	country	Philippines	Singapore
+48	0.7330249041070929	cohens_d	country	Jersey	USA
+49	0.7214332647267315	cohens_d	country	Denmark	Japan
+50	0.7183852877994265	cohens_d	ibd	No	Yes
+51	0.7165887316212787	cohens_d	country	Sweden	Thailand
+52	0.7095845699895728	cohens_d	country	Japan	Philippines
+53	0.706240640446067	cohens_d	country	Netherlands	Thailand
+54	0.7027657557386959	cohens_d	country	India	Spain
+55	0.70057742327207	cohens_d	country	Canada	India
+56	0.6898477774978627	cohens_d	country	Philippines	Thailand
+57	0.6818255841032372	cohens_d	country	India	Norway
+58	0.6806925486165273	cohens_d	country	Jersey	United Kingdom
+59	0.6769183079444213	cohens_d	country	Japan	Morocco
+60	0.6732370492153067	cohens_d	age_cat	40s	70+
+61	0.6658582873742598	cohens_d	country	Austria	India
+62	0.6599493203187773	cohens_d	country	Germany	Thailand
+63	0.6555279578865987	cohens_d	country	Denmark	Singapore
+64	0.635530957939284	cohens_d	age_cat	30s	70+
+65	0.6331396053074421	cohens_d	country	India	Thailand
+66	0.6309117809739628	cohens_d	country	India	Ireland
+67	0.6235964368939911	cohens_d	country	India	United Kingdom
+68	0.6229001637014726	cohens_d	country	Morocco	Singapore
+69	0.6187831411585537	cohens_d	country	India	Switzerland
+70	0.6110427060781811	cohens_d	country	Canada	Czech Republic
+71	0.6091547574666817	cohens_d	country	India	New Zealand
+72	0.602933091563526	cohens_d	age_cat	20s	70+
+73	0.5991880998356922	cohens_d	country	India	USA
+74	0.5812334680965279	cohens_d	country	Greece	Japan
+75	0.5806016436804001	cohens_d	country	Czech Republic	Spain
+76	0.5801788614160959	cohens_d	country	Italy	Japan
+77	0.5798381425392357	cohens_d	country	Japan	Jersey
+78	0.5650484727860955	cohens_d	country	Belgium	Singapore
+79	0.5633438447336016	cohens_d	country	Austria	Czech Republic
+80	0.5632864520455321	cohens_d	country	Czech Republic	Norway
+81	0.5581058427596831	cohens_d	country	Belgium	India
+82	0.5511881713826733	cohens_d	country	Jersey	Sweden
+83	0.5494830590985778	cohens_d	country	Italy	Singapore
+84	0.5462971955788053	cohens_d	country	Czech Republic	Ireland
+85	0.5458802018514944	cohens_d	country	Czech Republic	United Kingdom
+86	0.5427065180415697	cohens_d	country	Belgium	Japan
+87	0.541871395878025	cohens_d	country	Czech Republic	Thailand
+88	0.5386418089216365	cohens_d	country	Czech Republic	New Zealand
+89	0.5342439862388552	cohens_d	country	Denmark	India
+90	0.5306653472950695	cohens_d	country	Australia	Sweden
+91	0.524702350499572	cohens_d	age_cat	70+	teen
+92	0.5198067974864197	cohens_d	country	Czech Republic	USA
+93	0.5187509327879074	cohens_d	country	Singapore	Switzerland
+94	0.518636350052853	cohens_d	age_cat	50s	70+
+95	0.5146568889060485	cohens_d	country	Norway	Singapore
+96	0.5140291188043982	cohens_d	country	Czech Republic	Switzerland
+97	0.5032565746547111	cohens_d	country	India	Sweden
+98	0.5009883832311971	cohens_d	country	Japan	Norway
+99	0.48929848025178707	cohens_d	country	Japan	Switzerland
+100	0.48809613161773935	cohens_d	country	France	Singapore
+101	0.4744486402394328	cohens_d	country	Greece	Singapore
+102	0.471172330170594	cohens_d	country	Singapore	Spain
+103	0.47033881058318944	cohens_d	country	Japan	Spain
+104	0.47009401885494273	cohens_d	country	Germany	Singapore
+105	0.4683509150901758	cohens_d	country	France	Japan
+106	0.4681585454633863	cohens_d	country	India	Italy
+107	0.4649776363151774	cohens_d	country	Australia	Canada
+108	0.4546518962961709	cohens_d	country	Belgium	Czech Republic
+109	0.4533345849712137	cohens_d	country	Czech Republic	Sweden
+110	0.4486652607189339	cohens_d	country	Germany	Japan
+111	0.44386721397511	cohens_d	country	France	India
+112	0.43537199649049824	cohens_d	country	Australia	Ireland
+113	0.43340203631896623	cohens_d	country	Austria	Japan
+114	0.4291124311018389	cohens_d	country	Czech Republic	Greece
+115	0.4271989585346701	cohens_d	country	Jersey	Singapore
+116	0.422200215788093	cohens_d	country	Austria	Singapore
+117	0.41836745743987575	cohens_d	country	Canada	Netherlands
+118	0.41594662032670787	cohens_d	country	India	Morocco
+119	0.39170486748201	cohens_d	country	Germany	India
+120	0.39156059586924685	cohens_d	country	Canada	Philippines
+121	0.38112339736449496	cohens_d	country	Australia	New Zealand
+122	0.3795936295737391	cohens_d	country	Philippines	Sweden
+123	0.3787127260324225	cohens_d	country	Netherlands	United Kingdom
+124	0.37378760579176123	cohens_d	country	Czech Republic	Italy
+125	0.37145834131364214	cohens_d	country	Australia	United Kingdom
+126	0.37102747763494737	cohens_d	country	Canada	Morocco
+127	0.370956674264467	cohens_d	country	Australia	India
+128	0.3645046522610667	cohens_d	country	Canada	Denmark
+129	0.3627840417149884	cohens_d	country	New Zealand	Singapore
+130	0.3623780903922684	cohens_d	country	Czech Republic	France
+131	0.36111124831178437	cohens_d	country	Ireland	Netherlands
+132	0.35565512023904494	cohens_d	country	Japan	New Zealand
+133	0.35409925184486707	cohens_d	country	Philippines	United Kingdom
+134	0.35047623867355276	cohens_d	country	India	Philippines
+135	0.34905767567782575	cohens_d	country	Netherlands	USA
+136	0.345345642138418	cohens_d	country	Netherlands	New Zealand
+137	0.34486388016813024	cohens_d	country	Ireland	Philippines
+138	0.34199579338066294	cohens_d	country	Netherlands	Sweden
+139	0.3410414373700759	cohens_d	country	Australia	USA
+140	0.34078467186671163	cohens_d	country	India	Netherlands
+141	0.3382510047769149	cohens_d	country	Czech Republic	Denmark
+142	0.33823874262182285	cohens_d	country	Morocco	United Kingdom
+143	0.3325397757163532	cohens_d	country	Denmark	United Kingdom
+144	0.32996301478950474	cohens_d	country	Australia	Austria
+145	0.3294136407725341	cohens_d	age_cat	60s	teen
+146	0.3270702100380284	cohens_d	country	Ireland	Singapore
+147	0.32390335532883513	cohens_d	country	Philippines	USA
+148	0.322568881038791	cohens_d	country	Australia	Spain
+149	0.3182921813856298	cohens_d	country	Austria	Netherlands
+150	0.3180615940003858	cohens_d	country	Netherlands	Spain
+151	0.3147678267210808	cohens_d	country	Czech Republic	Germany
+152	0.31232446517971996	cohens_d	country	New Zealand	Philippines
+153	0.30789097500645707	cohens_d	age_cat	60s	70+
+154	0.30772078576603573	cohens_d	country	Morocco	USA
+155	0.3059439911388902	cohens_d	country	Ireland	Morocco
+156	0.30501852827389225	cohens_d	country	Australia	Norway
+157	0.30460808225278	cohens_d	country	Netherlands	Norway
+158	0.3021182170823508	cohens_d	country	Ireland	Japan
+159	0.30189970226145985	cohens_d	country	Denmark	USA
+160	0.3003524528451225	cohens_d	country	Denmark	Ireland
+161	0.2999408986422928	cohens_d	country	Czech Republic	Morocco
+162	0.2972397617344001	cohens_d	country	Canada	Italy
+163	0.2962333296357527	cohens_d	country	Australia	Switzerland
+164	0.2918761104759223	cohens_d	country	Canada	Greece
+165	0.2861219370198691	cohens_d	country	Netherlands	Switzerland
+166	0.27665055348133166	cohens_d	country	Morocco	Sweden
+167	0.2743694442728848	cohens_d	country	Italy	United Kingdom
+168	0.2733636361977905	cohens_d	country	Denmark	Spain
+169	0.2729610251825439	cohens_d	country	Denmark	New Zealand
+170	0.2727423021826508	cohens_d	country	Morocco	New Zealand
+171	0.2721658093958236	cohens_d	age_cat	40s	60s
+172	0.2720385160232768	cohens_d	country	Denmark	Sweden
+173	0.2719568963956383	cohens_d	country	Canada	Singapore
+174	0.27059340183764874	cohens_d	country	Austria	Philippines
+175	0.26975757271278533	cohens_d	country	Greece	United Kingdom
+176	0.2684840394128689	cohens_d	country	Austria	Denmark
+177	0.2667750343129199	cohens_d	country	Morocco	Spain
+178	0.2656117454250262	cohens_d	country	Philippines	Spain
+179	0.2609822817217339	cohens_d	country	Singapore	USA
+180	0.25882164878775044	cohens_d	country	Austria	Morocco
+181	0.25804670911493083	cohens_d	country	Canada	Germany
+182	0.25693284763286367	cohens_d	country	Australia	Czech Republic
+183	0.2530492612782947	cohens_d	country	Denmark	Norway
+184	0.252982696105802	cohens_d	country	Morocco	Norway
+185	0.2516387277016436	cohens_d	country	Norway	Philippines
+186	0.2501573878234464	cohens_d	country	Czech Republic	Philippines
+187	0.24669149937206275	cohens_d	country	Philippines	Switzerland
+188	0.2441055097699278	cohens_d	country	Canada	Japan
+189	0.24248409775497975	cohens_d	country	Italy	USA
+190	0.2420822873009678	cohens_d	country	Germany	United Kingdom
+191	0.24094342771916116	cohens_d	country	Canada	France
+192	0.24011735551836877	cohens_d	age_cat	30s	60s
+193	0.2377739298508383	cohens_d	country	Greece	USA
+194	0.23625037505986107	cohens_d	country	Japan	USA
+195	0.23361580738760007	cohens_d	country	Czech Republic	Netherlands
+196	0.23275488130345184	cohens_d	country	Ireland	Italy
+197	0.23205416538430423	cohens_d	country	Australia	Belgium
+198	0.23068704620149755	cohens_d	country	Morocco	Switzerland
+199	0.2275677169174676	cohens_d	age_cat	20s	60s
+200	0.22681758743483335	cohens_d	country	Greece	Ireland
+201	0.22618474743677494	cohens_d	country	Belgium	Canada
+202	0.22590688872841383	cohens_d	country	France	United Kingdom
+203	0.22585578785744803	cohens_d	country	Belgium	Netherlands
+204	0.2253625045575134	cohens_d	country	Italy	Sweden
+205	0.22534667727318375	cohens_d	country	Germany	Sweden
+206	0.2239351832161732	cohens_d	country	Denmark	Switzerland
+207	0.2185442120030637	cohens_d	country	Singapore	United Kingdom
+208	0.21589222146716483	cohens_d	country	Greece	Sweden
+209	0.21233695660002733	cohens_d	country	Belgium	United Kingdom
+210	0.21107395364105014	cohens_d	country	Australia	France
+211	0.20950473877253192	cohens_d	country	Germany	USA
+212	0.2079502942042213	cohens_d	country	France	Sweden
+213	0.20365378257833391	cohens_d	country	Belgium	Sweden
+214	0.1946887550620239	cohens_d	country	Italy	New Zealand
+215	0.19433102511232903	cohens_d	country	Japan	United Kingdom
+216	0.1929820830138466	cohens_d	country	France	USA
+217	0.18719843819538512	cohens_d	country	Greece	New Zealand
+218	0.1870118357160953	cohens_d	bowel_movement_quality	Diarrhea	Normal
+219	0.1857407635824378	cohens_d	country	Belgium	Philippines
+220	0.18528643324253902	cohens_d	country	Australia	Germany
+221	0.18455021519255324	cohens_d	types_of_plants	11 to 20	21 to 30
+222	0.18401156830652585	cohens_d	age_cat	50s	60s
+223	0.18392709003397315	cohens_d	country	Sweden	Switzerland
+224	0.1838761619695824	cohens_d	country	Germany	Ireland
+225	0.1791854830659448	cohens_d	country	France	Netherlands
+226	0.17911963133240616	cohens_d	country	Belgium	USA
+227	0.178508674553123	cohens_d	country	Singapore	Sweden
+228	0.1775146534969075	cohens_d	asd	No	Yes
+229	0.1758975626121177	cohens_d	country	Canada	Switzerland
+230	0.17498670033351216	cohens_d	country	Greece	Spain
+231	0.17492856933486542	cohens_d	country	France	Ireland
+232	0.17195077100580827	cohens_d	kidney_disease	No	Yes
+233	0.1703999132725025	cohens_d	country	Italy	Spain
+234	0.16993468522921715	cohens_d	country	Belgium	Morocco
+235	0.16992107280298627	cohens_d	country	Austria	Greece
+236	0.16864777746212153	cohens_d	country	Belgium	Ireland
+237	0.16861272169193153	cohens_d	country	Canada	Norway
+238	0.16809151939413006	cohens_d	country	Switzerland	United Kingdom
+239	0.1676643063363993	cohens_d	country	Austria	Italy
+240	0.1642227490408233	cohens_d	country	Belgium	Denmark
+241	0.16279684592618318	cohens_d	country	Norway	United Kingdom
+242	0.16171211629059162	cohens_d	age_cat	50s	teen
+243	0.16169853945426707	cohens_d	country	Japan	Sweden
+244	0.161296455230442	cohens_d	ibs	No	Yes
+245	0.16008309973132162	cohens_d	antibiotic_history	6 months	I have not taken antibiotics in the past year.
+246	0.1576626678665257	cohens_d	country	France	Philippines
+247	0.15749468449577284	cohens_d	country	Italy	Norway
+248	0.15739197490225018	cohens_d	country	Greece	Norway
+249	0.15464143045627712	cohens_d	country	Canada	Spain
+250	0.1509119827731014	cohens_d	country	Greece	Netherlands
+251	0.15082922925984363	cohens_d	country	Spain	United Kingdom
+252	0.150334380779523	cohens_d	sex	female	male
+253	0.14869642608263145	cohens_d	country	Austria	Canada
+254	0.1481316303990616	cohens_d	country	Australia	Greece
+255	0.14575066123808353	cohens_d	country	Austria	United Kingdom
+256	0.14554756667433905	cohens_d	country	Germany	Netherlands
+257	0.14379321552037905	cohens_d	country	Norway	Sweden
+258	0.14370347321630028	cohens_d	country	Italy	Switzerland
+259	0.14277010312884283	cohens_d	types_of_plants	11 to 20	Less than 5
+260	0.14160899262599963	cohens_d	types_of_plants	11 to 20	6 to 10
+261	0.14133858415738249	cohens_d	country	Italy	Netherlands
+262	0.14132002547260314	cohens_d	country	Australia	Italy
+263	0.13800332653547842	cohens_d	country	Greece	Switzerland
+264	0.1360235898986184	cohens_d	country	Germany	New Zealand
+265	0.13586650906253467	cohens_d	antibiotic_history	6 months	Week
+266	0.13392084977720317	cohens_d	country	Switzerland	USA
+267	0.13228159743301754	cohens_d	antibiotic_history	I have not taken antibiotics in the past year.	Month
+268	0.13227476423054763	cohens_d	country	Belgium	New Zealand
+269	0.13142821050377368	cohens_d	antibiotic_history	I have not taken antibiotics in the past year.	Year
+270	0.13099710315977361	cohens_d	bowel_movement_quality	Constipation	Normal
+271	0.130853277325023	cohens_d	age_cat	30s	teen
+272	0.12887883159659522	cohens_d	country	France	New Zealand
+273	0.1285216314261345	cohens_d	country	Norway	USA
+274	0.12798165974681722	cohens_d	country	Germany	Philippines
+275	0.12698754111903662	cohens_d	country	Spain	Sweden
+276	0.12601862610483805	cohens_d	country	France	Morocco
+277	0.12434524031019402	cohens_d	age_cat	20s	teen
+278	0.12291438766758836	cohens_d	country	Czech Republic	India
+279	0.1212393840741932	cohens_d	country	Ireland	Switzerland
+280	0.12025240373148607	cohens_d	country	Denmark	France
+281	0.11947571300186288	cohens_d	country	Austria	Sweden
+282	0.11629866278307809	cohens_d	country	Spain	USA
+283	0.1125690589381491	cohens_d	country	Denmark	Greece
+284	0.11111177202776516	cohens_d	country	Austria	USA
+285	0.11061200582180106	cohens_d	country	New Zealand	United Kingdom
+286	0.10954695024328924	cohens_d	country	Greece	Philippines
+287	0.1080647133096199	cohens_d	country	Canada	New Zealand
+288	0.10801762353758339	cohens_d	country	Ireland	Norway
+289	0.10332246109528663	cohens_d	country	Italy	Philippines
+290	0.09964925632685742	cohens_d	country	Austria	Germany
+291	0.09913242125023596	cohens_d	country	Germany	Morocco
+292	0.09778563362658403	cohens_d	types_of_plants	11 to 20	More than 30
+293	0.09738083317617752	cohens_d	country	Greece	Morocco
+294	0.09648478061201006	cohens_d	age_cat	40s	teen
+295	0.09606033028470329	cohens_d	antibiotic_history	Month	Week
+296	0.09559956945784995	cohens_d	types_of_plants	21 to 30	More than 30
+297	0.09534272370463479	cohens_d	country	Germany	Spain
+298	0.09432129472164363	cohens_d	antibiotic_history	Week	Year
+299	0.09342170072410108	cohens_d	country	Denmark	Germany
+300	0.09264161912320737	cohens_d	country	Ireland	Spain
+301	0.09181714563256682	cohens_d	country	New Zealand	Sweden
+302	0.09032026324374172	cohens_d	country	Austria	France
+303	0.0896633039323861	cohens_d	country	Austria	Belgium
+304	0.0864034276107205	cohens_d	country	Germany	Switzerland
+305	0.08605483733010096	cohens_d	country	France	Spain
+306	0.08594575629385516	cohens_d	country	Austria	Ireland
+307	0.0842655532130852	cohens_d	country	Germany	Norway
+308	0.08394667711942187	cohens_d	country	Belgium	Spain
+309	0.08355137224299522	cohens_d	country	Italy	Morocco
+310	0.08312613574691582	cohens_d	country	Belgium	Italy
+311	0.0813791677461598	cohens_d	country	Denmark	Italy
+312	0.08099782891926546	cohens_d	age_cat	40s	50s
+313	0.07773637019533758	cohens_d	country	Belgium	Greece
+314	0.07671108564135413	cohens_d	country	New Zealand	Switzerland
+315	0.07522084136091729	cohens_d	country	New Zealand	USA
+316	0.07493957307672929	cohens_d	lung_disease	No	Yes
+317	0.07412895366320808	cohens_d	country	France	Norway
+318	0.07326779769360071	cohens_d	country	France	Switzerland
+319	0.07078092506405102	cohens_d	country	Ireland	United Kingdom
+320	0.06864119860028602	cohens_d	country	New Zealand	Norway
+321	0.0682827749047191	cohens_d	country	Belgium	Norway
+322	0.06757187373430083	cohens_d	country	Ireland	Sweden
+323	0.0668846250918985	cohens_d	mental_illness	No	Yes
+324	0.06492983121673415	cohens_d	country	Denmark	Netherlands
+325	0.06336322144933547	cohens_d	skin_condition	No	Yes
+326	0.0633532351187765	cohens_d	bowel_movement_quality	Constipation	Diarrhea
+327	0.06201860171546698	cohens_d	country	Canada	Ireland
+328	0.05990453082695086	cohens_d	country	Belgium	Switzerland
+329	0.056037443220525104	cohens_d	country	Australia	Denmark
+330	0.05559274456237973	cohens_d	country	Morocco	Netherlands
+331	0.054341497269464314	cohens_d	country	France	Italy
+332	0.05100876577854732	cohens_d	types_of_plants	Less than 5	More than 30
+333	0.050863760732850205	cohens_d	country	New Zealand	Spain
+334	0.048835924440487656	cohens_d	country	France	Greece
+335	0.0482428274493311	cohens_d	age_cat	30s	50s
+336	0.0476646874978675	cohens_d	country	Australia	Morocco
+337	0.047240105569631756	cohens_d	age_cat	20s	50s
+338	0.046535527759845326	cohens_d	types_of_plants	21 to 30	6 to 10
+339	0.045601913482996484	cohens_d	liver_disease	No	Yes
+340	0.045507059613433674	cohens_d	types_of_plants	6 to 10	More than 30
+341	0.045400611429142604	cohens_d	country	Ireland	New Zealand
+342	0.04420227402680478	cohens_d	antibiotic_history	I have not taken antibiotics in the past year.	Week
+343	0.04249908107615977	cohens_d	types_of_plants	21 to 30	Less than 5
+344	0.04245272567717315	cohens_d	country	Austria	New Zealand
+345	0.03762350063377703	cohens_d	country	USA	United Kingdom
+346	0.03507640434870546	cohens_d	country	Sweden	USA
+347	0.03488742249328166	cohens_d	age_cat	30s	40s
+348	0.03453550545520736	cohens_d	country	Ireland	USA
+349	0.033617133610020514	cohens_d	age_cat	20s	40s
+350	0.03331157667506463	cohens_d	country	Germany	Italy
+351	0.032479103650261	cohens_d	country	Belgium	Germany
+352	0.032235538922983066	cohens_d	country	Netherlands	Philippines
+353	0.032010461209896465	cohens_d	antibiotic_history	6 months	Month
+354	0.031911172946317574	cohens_d	antibiotic_history	6 months	Year
+355	0.03024452424819866	cohens_d	country	Austria	Switzerland
+356	0.028384155931521667	cohens_d	country	Germany	Greece
+357	0.028094974007798826	cohens_d	country	Denmark	Philippines
+358	0.025455589238039162	cohens_d	country	Japan	Singapore
+359	0.02430225485588307	cohens_d	country	Australia	Philippines
+360	0.024294361687323286	cohens_d	country	Austria	Norway
+361	0.023485275562485985	cohens_d	country	Spain	Switzerland
+362	0.02057790280013692	cohens_d	country	Morocco	Philippines
+363	0.020360421280968433	cohens_d	country	Canada	USA
+364	0.01741783068027892	cohens_d	country	Norway	Spain
+365	0.01704632476469102	cohens_d	country	Canada	United Kingdom
+366	0.016976626599613128	cohens_d	country	France	Germany
+367	0.016843950781881206	cohens_d	cardiovascular_disease	No	Yes
+368	0.01644379496770212	cohens_d	country	Canada	Sweden
+369	0.016295236299934443	cohens_d	country	Belgium	France
+370	0.011689941425586069	cohens_d	country	Australia	Netherlands
+371	0.008548822065493481	cohens_d	country	Denmark	Morocco
+372	0.007225154543577207	cohens_d	country	Norway	Switzerland
+373	0.007115266475950106	cohens_d	country	Austria	Spain
+374	0.006062177473772795	cohens_d	country	Greece	Italy
+375	0.005284659000264948	cohens_d	types_of_plants	6 to 10	Less than 5
+376	0.0026260228471881144	cohens_d	country	Sweden	United Kingdom
+377	0.001349471705931442	cohens_d	antibiotic_history	Month	Year
+378	0.0009785302617599137	cohens_d	age_cat	20s	30s

@@ -1,0 +1,11 @@
+[ Thu Mar  3 07:44:16 PST 2022 ] :: Start script
+Thu Mar  3 07:44:16 PST 2022
+/home/grahman/projects/evident-analyses
+b2-001
+[ Thu Mar  3 07:44:16 PST 2022 ] :: Starting RPCA...
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/gemelli/preprocessing.py:155: RuntimeWarning: divide by zero encountered in log
+  M_log = np.log(M_log.squeeze())
+[ Thu Mar  3 07:52:29 PST 2022 ] :: RPCA finished!
+[ Thu Mar  3 07:52:29 PST 2022 ] :: Zipping distance matrix...
+[ Thu Mar  3 07:57:37 PST 2022 ] :: Zipping finished!
+[ Thu Mar  3 07:57:37 PST 2022 ] :: Finish script
