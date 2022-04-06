@@ -1,12 +1,16 @@
-Wed Apr  6 12:26:43 PDT 2022
+Wed Apr  6 13:40:55 PDT 2022
 /home/grahman/projects/evident-analyses
 b2-013
-[ Wed Apr  6 12:26:43 PDT 2022 ] :: Start script
-[ Wed Apr  6 12:27:25 PDT 2022 ] :: Start redbiom fetch samples
+[ Wed Apr  6 13:40:56 PDT 2022 ] :: Start script
+[ Wed Apr  6 13:41:38 PDT 2022 ] :: Start redbiom fetch samples
 9869 sample ambiguities observed. Writing ambiguity mappings to: data/raw/table.raw.biom.ambiguities
-[ Wed Apr  6 12:56:01 PDT 2022 ] :: Start redbiom fetch sample metadata
+[ Wed Apr  6 14:15:23 PDT 2022 ] :: Start redbiom fetch sample metadata
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/redbiom/commands/fetch.py:106: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead.  To get a de-fragmented frame, use `newframe = frame.copy()`
+  md[key] = ambigs
 9869 sample ambiguities observed. Writing ambiguity mappings to: data/raw/metadata.raw.tsv.ambiguities
-[ Wed Apr  6 12:56:22 PDT 2022 ] :: Finished script!
+[ Wed Apr  6 14:18:22 PDT 2022 ] :: Start redbiom fetch sample prep metadata
+9869 sample ambiguities observed. Writing ambiguity mappings to: data/raw/metadata.prep.raw.tsv.ambiguities
+[ Wed Apr  6 14:18:45 PDT 2022 ] :: Finished script!
 Num samples: 9,511
 Num observations: 274,324
 Total count: 209,127,678
