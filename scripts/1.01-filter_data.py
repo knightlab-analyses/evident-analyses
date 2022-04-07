@@ -73,11 +73,14 @@ def main():
     logger.addHandler(sh)
 
     tbl = biom.load_table("data/raw/table.raw.biom")
+    samp_rename_dict = {x: f"S{x}" for x in tbl.ids()}
+    tbl.update_ids(samp_rename_dict)
 
     na_vals = ["Not provided"]
     orig_md_file = "data/ref/ag_map_with_alpha.txt.quartiles.tsv"
     orig_md = pd.read_table(orig_md_file, sep="\t", index_col=0,
                             na_values=na_vals)
+    orig_md.index = "S" + orig_md.index
     cols_to_remove = [
         "roommates",
         "age_cat",
@@ -91,16 +94,40 @@ def main():
     ]
     cols_to_remove += [x for x in orig_md.columns if "vioscreen" in x]
     cols_to_remove += [x for x in orig_md.columns if "alcohol" in x]
-    logger.info(f"Dropping the following columns from original metadata:\n{cols_to_remove}")
+    logger.info(
+        "Dropping the following columns from original metadata:"
+        f"\n{cols_to_remove}"
+    )
     orig_md = orig_md.drop(columns=cols_to_remove)
 
     new_md_file = "data/raw/metadata.raw.tsv"
     new_md = pd.read_table(new_md_file, sep="\t", index_col=0,
                            na_values=na_vals)
+    new_md.index = "S" + new_md.index
 
     cols_in_common = set(orig_md.columns).intersection(new_md.columns)
     new_md = new_md[cols_in_common]
 
+    prep_md_file = "data/raw/metadata.prep.raw.tsv"
+    prep_md = pd.read_table(prep_md_file, sep="\t", index_col=0,
+                            na_values=na_vals)
+
+    prep_md.index = prep_md.index.str.extract("(10317\.\d+)", expand=False)
+    prep_md.index = "S" + prep_md.index
+    idx_to_keep = ~prep_md.index.duplicated(keep="first")
+    prep_cols_to_use = [
+        "center_project_name",
+        "extraction_robot",
+        "plating",
+        "processing_robot"
+    ]
+    prep_md = prep_md[prep_cols_to_use]
+    prep_md = prep_md.iloc[idx_to_keep]
+    logger.info(
+        "Including the following columns from redbiom prep metadata:"
+        f"\n{prep_cols_to_use}"
+    )
+    new_md = new_md.join(prep_md, how="inner")
 
     bloom_seqs_file = "/home/grahman/software/bloom-analyses/data/newbloom.all.fna"
     seqs = skbio.read(bloom_seqs_file, format="fasta")
@@ -202,11 +229,6 @@ def main():
         if len(vc) == 1:
             new_md = new_md.drop(columns=[col])
             logger.info(f"Dropping {col} since it has only one level.")
-            continue
-
-        if len(vc) > 10:
-            new_md = new_md.drop(columns=[col])
-            logger.info(f"Dropping {col} since it has too many levels.")
             continue
 
         logger.info(f"\n{new_md[col].value_counts()}")

@@ -1,0 +1,42 @@
+[2022-04-07 12:28:01,726 - evident - INFO] :: Loading distance matrix...
+[2022-04-07 12:28:31,521 - evident - INFO] :: Finished loading distance matrix!
+/home/grahman/projects/evident/evident/utils.py:20: UserWarning: Data and metadata do not have the same sample IDs. Using 9488 samples common to both.
+  warn(msg)
+[2022-04-07 12:28:33,713 - evident - INFO] :: Calculating effect sizes...
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/fromnumeric.py:3724: RuntimeWarning: Degrees of freedom <= 0 for slice
+  **kwargs)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
+  subok=False)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/fromnumeric.py:3441: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:189: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/fromnumeric.py:3724: RuntimeWarning: Degrees of freedom <= 0 for slice
+  **kwargs)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
+  subok=False)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/fromnumeric.py:3441: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:189: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+[2022-04-07 12:31:52,672 - evident - INFO] :: 
+    effect_size    metric                                             column
+0      0.279677  cohens_d            specialized_diet_exclude_refined_sugars
+1      0.276144  cohens_d                                  fungal_overgrowth
+2      0.260191  cohens_d  mental_illness_type_ptsd_posttraumatic_stress_...
+3      0.212849  cohens_d                         other_supplement_frequency
+4      0.206284  cohens_d                                         autoimmune
+..          ...       ...                                                ...
+88     0.004691  cohens_f                            teethbrushing_frequency
+89     0.003548  cohens_f                                      contraceptive
+90          NaN  cohens_f                                              state
+91          NaN  cohens_f                                center_project_name
+92          NaN  cohens_f                                   extraction_robot
+
+[93 rows x 3 columns]
+[2022-04-07 12:31:52,676 - evident - INFO] :: Finished calculating effect sizes!
+Total time: 231.24156618118286

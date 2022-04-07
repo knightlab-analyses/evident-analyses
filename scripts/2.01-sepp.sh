@@ -2,7 +2,7 @@
 #SBATCH --chdir=/home/grahman/projects/evident-analyses
 #SBATCH --output=/home/grahman/projects/evident-analyses/log/%x.log
 #SBATCH --partition=long
-#SBATCH --nodes=4
+#SBATCH --nodes=8
 #SBATCH --cpus-per-task=8
 #SBATCH --mem-per-cpu=16G
 #SBATCH --time=24:00:00
@@ -24,6 +24,6 @@ cd $OUTDIR
 
 echo "[ $(date) ] :: Running SEPP..."
 
-$SEPP $FNA tbl_gg -x 32
+$SEPP $FNA tbl_gg -x 64
 
 echo "[ $(date) ] :: Finished script!"
