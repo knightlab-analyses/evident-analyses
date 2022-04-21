@@ -7,24 +7,17 @@
 #SBATCH --mem-per-cpu=32G
 #SBATCH --time=24:00:00
 
-import logging
-import time
-
 import unifrac
 
+from src.helper import get_logger, time_function
 
+
+@time_function
 def main():
-    logger = logging.getLogger("unifrac")
-    logger.setLevel(logging.INFO)
-    sh = logging.StreamHandler()
-    formatter = logging.Formatter(
-        "[%(asctime)s - %(name)s - %(levelname)s] :: %(message)s"
-    )
-    sh.setFormatter(formatter)
-    logger.addHandler(sh)
+    logger = get_logger()
 
-    tbl_file = "data/processed/table.rare.filt.biom"
-    tree = "results/processed/sepp/tbl_gg_placement.tog.relabelled.tre"
+    tbl_file = "data/processed/table.disambig.rare.filt.biom"
+    tree = "results/sepp_out/tbl_gg_placement.tog.relabelled.tre"
 
     logger.info("Running UniFrac...")
     dm = unifrac.unweighted(tbl_file, tree)
@@ -33,6 +26,4 @@ def main():
 
 
 if __name__ == "__main__":
-    start = time.time()
     main()
-    print(time.time() - start)

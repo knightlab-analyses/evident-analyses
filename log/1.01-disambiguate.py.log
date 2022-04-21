@@ -1,0 +1,11 @@
+[2022-04-20 21:10:46,052 - INFO] :: Ambiguous prep metadata shape: (9869, 42)
+[2022-04-20 21:10:46,812 - INFO] :: Ambiguous table shape: (274324, 9869)
+[2022-04-20 21:10:49,180 - INFO] :: Number of samples to keep: 9511
+/home/grahman/projects/evident-analyses/src/helper.py:20: DtypeWarning: Columns (28,65,73,80,101,110,123,124,127,140,142,177,229,239,263,268,275,295,327,386,408,414) have mixed types.Specify dtype option on import or set low_memory=False.
+  func()
+[2022-04-20 21:10:49,737 - INFO] :: Ambiguous sample metadata shape: (9869, 451)
+[2022-04-20 21:10:51,494 - INFO] :: Disambiguated metadata shape: (9511, 494)
+[2022-04-20 21:10:52,053 - INFO] :: Disambiguated table shape: (274308, 9511)
+[2022-04-20 21:10:53,456 - INFO] :: Saved disambiguated table to data/intermediate/table.disambig.biom!
+[2022-04-20 21:10:55,234 - INFO] :: Saved disambiguated metadata to data/intermediate/metadata.disambig.tsv!
+Total script time: 9.32368016242981

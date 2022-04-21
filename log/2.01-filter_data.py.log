@@ -1,0 +1,611 @@
+[2022-04-20 21:13:58,522 - INFO] :: Original table shape: (274308, 9511)
+[2022-04-20 21:13:58,522 - INFO] :: Filtering out features with fewer than 10 reads across samples
+[2022-04-20 21:13:58,603 - INFO] :: Filtered table shape: (21630, 9511)
+[2022-04-20 21:13:58,746 - INFO] :: Dropping the following columns from original metadata:
+['roommates', 'age_cat', 'bmi_corrected', 'height_cm', 'latitude', 'longitude', 'elevation', 'collection_time', 'allergic_to_i_have_no_food_allergies_that_i_know_of', 'vioscreen_add_sug', 'vioscreen_a_bev', 'vioscreen_calcium_avg', 'vioscreen_d_cheese', 'vioscreen_f_citmlb', 'vioscreen_g_whl', 'vioscreen_m_fish_hi', 'vioscreen_m_frank', 'vioscreen_m_meat', 'vioscreen_m_mpf', 'vioscreen_salad_vegetable_servings', 'vioscreen_v_starcy', 'vioscreen_alanine', 'vioscreen_alphacar', 'vioscreen_alphtoce', 'vioscreen_avcarb', 'vioscreen_betacryp', 'vioscreen_betatoco', 'vioscreen_biochana', 'vioscreen_caffeine', 'vioscreen_calcium.1', 'vioscreen_cholest', 'vioscreen_clac9t11', 'vioscreen_copper', 'vioscreen_daidzein', 'vioscreen_delttoco', 'vioscreen_erythr', 'vioscreen_fiber', 'vioscreen_fol_deqv', 'vioscreen_formontn', 'vioscreen_grams', 'vioscreen_inositol', 'vioscreen_lutzeax', 'vioscreen_lycopene', 'vioscreen_tfa181t', 'vioscreen_xylitol', 'alcohol_consumption', 'alcohol_types_beercider', 'alcohol_types_red_wine', 'alcohol_types_sour_beers', 'alcohol_types_spiritshard_alcohol', 'alcohol_types_white_wine']
+/home/grahman/projects/evident-analyses/src/helper.py:20: DtypeWarning: Columns (11,24,41,71,108,116,123,144,153,166,167,170,183,185,220,272,282,306,311,318,338,370,429,451,457) have mixed types.Specify dtype option on import or set low_memory=False.
+  func()
+[2022-04-20 21:13:59,206 - INFO] :: Replacing bowel_movement_quality values
+[2022-04-20 21:13:59,208 - INFO] :: Subsetting countries to only include:
+['USA', 'United Kingdom', 'Australia', 'Canada']
+[2022-04-20 21:13:59,213 - INFO] :: 
+No     853
+Yes    102
+Name: specialized_diet_other_restrictions_not_described_here, dtype: int64
+[2022-04-20 21:13:59,219 - INFO] :: 
+February     1145
+March        1019
+January      1017
+July          856
+April         813
+September     786
+August        766
+June          765
+October       605
+May           602
+November      568
+December      564
+Name: collection_month, dtype: int64
+[2022-04-20 21:13:59,224 - INFO] :: 
+I use deodorant                                              3312
+I do not use deodorant or an antiperspirant                  2716
+I use an antiperspirant                                      2039
+Not sure, but I use some form of deodorant/antiperspirant    1205
+Name: deodorant_use, dtype: int64
+[2022-04-20 21:13:59,230 - INFO] :: 
+No     8717
+Yes     794
+Name: non_food_allergies_pet_dander, dtype: int64
+[2022-04-20 21:13:59,236 - INFO] :: 
+Never                            3122
+Rarely (less than once/week)     1105
+Daily                             994
+Regularly (3-5 times/week)        700
+Occasionally (1-2 times/week)     620
+Name: milk_substitute_frequency, dtype: int64
+[2022-04-20 21:13:59,241 - INFO] :: 
+No     6310
+Yes     217
+Name: cardiovascular_disease, dtype: int64
+[2022-04-20 21:13:59,248 - INFO] :: 
+7-8 hours          3810
+6-7 hours          2826
+8 or more hours    1659
+Less than 6        1011
+Name: sleep_duration, dtype: int64
+[2022-04-20 21:13:59,253 - INFO] :: 
+Daily                            8807
+Regularly (3-5 times/week)        358
+Occasionally (1-2 times/week)      67
+Rarely (a few times/month)         31
+Never                              30
+Name: teethbrushing_frequency, dtype: int64
+[2022-04-20 21:13:59,259 - INFO] :: 
+No     875
+Yes     80
+Name: specialized_diet_westenprice_or_other_lowgrain_low_processed_fo, dtype: int64
+[2022-04-20 21:13:59,265 - INFO] :: 
+No                                                                               7039
+I do not eat gluten because it makes me feel bad                                 1080
+I was diagnosed with gluten allergy (anti-gluten IgG), but not celiac disease     249
+I was diagnosed with celiac disease                                                94
+Name: gluten, dtype: int64
+[2022-04-20 21:13:59,271 - INFO] :: 
+USA               6634
+United Kingdom    2071
+Australia          280
+Canada             136
+Name: country, dtype: int64
+[2022-04-20 21:13:59,277 - INFO] :: 
+No     8459
+Yes    1052
+Name: non_food_allergies_drug_eg_penicillin, dtype: int64
+[2022-04-20 21:13:59,282 - INFO] :: 
+Remained stable                  7687
+Decreased more than 10 pounds     820
+Increased more than 10 pounds     689
+Name: weight_change, dtype: int64
+[2022-04-20 21:13:59,288 - INFO] :: 
+Never                            2395
+Rarely (a few times/month)        462
+Occasionally (1-2 times/week)     163
+Regularly (3-5 times/week)        126
+Daily                             116
+Name: artificial_sweeteners, dtype: int64
+[2022-04-20 21:13:59,293 - INFO] :: 
+Rarely (less than once/week)     2619
+Occasionally (1-2 times/week)    1718
+Never                            1481
+Regularly (3-5 times/week)        613
+Daily                              75
+Name: high_fat_red_meat_frequency, dtype: int64
+[2022-04-20 21:13:59,298 - INFO] :: 
+No     5994
+Yes     273
+Name: add_adhd, dtype: int64
+[2022-04-20 21:13:59,304 - INFO] :: 
+No     5334
+Yes     305
+Name: fungal_overgrowth, dtype: int64
+[2022-04-20 21:13:59,310 - INFO] :: 
+No     7529
+Yes    1566
+Name: lactose, dtype: int64
+[2022-04-20 21:13:59,315 - INFO] :: 
+No     2982
+Yes     245
+Name: cancer, dtype: int64
+[2022-04-20 21:13:59,321 - INFO] :: 
+Regularly (3-5 times/week)       3715
+Occasionally (1-2 times/week)    2219
+Daily                            2045
+Rarely (a few times/month)       1021
+Never                             277
+Name: exercise_frequency, dtype: int64
+[2022-04-20 21:13:59,326 - INFO] :: 
+Daily                            3600
+Regularly (3-5 times/week)       2233
+Occasionally (1-2 times/week)     402
+Rarely (less than once/week)      182
+Never                             121
+Name: homecooked_meals_frequency, dtype: int64
+[2022-04-20 21:13:59,331 - INFO] :: 
+Rarely (less than once/week)     2397
+Occasionally (1-2 times/week)    1817
+Never                            1032
+Regularly (3-5 times/week)       1032
+Daily                             273
+Name: salted_snacks_frequency, dtype: int64
+[2022-04-20 21:13:59,338 - INFO] :: 
+I tend to have normal formed stool                          4622
+I tend to have diarrhea (watery stool)                       951
+I tend to be constipated (have difficulty passing stool)     777
+Name: bowel_movement_quality, dtype: int64
+[2022-04-20 21:13:59,345 - INFO] :: 
+No          5116
+Yes         3680
+Not sure     414
+Name: livingwith, dtype: int64
+[2022-04-20 21:13:59,350 - INFO] :: 
+Daily                            1996
+Regularly (3-5 times/week)       1990
+Occasionally (1-2 times/week)    1321
+Rarely (less than once/week)      853
+Never                             365
+Name: fruit_frequency, dtype: int64
+[2022-04-20 21:13:59,356 - INFO] :: 
+Yes         2631
+Not sure    2228
+No          1726
+Name: consume_animal_products_abx, dtype: int64
+[2022-04-20 21:13:59,363 - INFO] :: 
+Omnivore                            7619
+Omnivore but do not eat red meat     615
+Vegetarian                           578
+Vegetarian but eat seafood           458
+Name: diet_type, dtype: int64
+[2022-04-20 21:13:59,368 - INFO] :: 
+ROBE      2669
+JERE      2317
+RIKE      1710
+LUCY       409
+CARMEN     357
+RikE       351
+RobE       114
+JerE        71
+Name: processing_robot, dtype: int64
+[2022-04-20 21:13:59,373 - INFO] :: 
+Daily                            3334
+Regularly (3-5 times/week)       1595
+Occasionally (1-2 times/week)     812
+Rarely (less than once/week)      544
+Never                             231
+Name: one_liter_of_water_a_day_frequency, dtype: int64
+[2022-04-20 21:13:59,379 - INFO] :: 
+No     828
+Yes    127
+Name: specialized_diet_exclude_refined_sugars, dtype: int64
+[2022-04-20 21:13:59,385 - INFO] :: 
+No          6863
+Yes         2249
+Not sure      88
+Name: tonsils_removed, dtype: int64
+[2022-04-20 21:13:59,391 - INFO] :: 
+West         2887
+Northeast    1404
+South        1332
+Midwest       790
+Name: census_region, dtype: int64
+[2022-04-20 21:13:59,396 - INFO] :: 
+Regularly (3-5 times/week)       2676
+Daily                            2201
+Occasionally (1-2 times/week)    1055
+Rarely (less than once/week)      351
+Never                             281
+Name: meat_eggs_frequency, dtype: int64
+[2022-04-20 21:13:59,401 - INFO] :: 
+11 to 20        2123
+6 to 10         1513
+21 to 30        1245
+More than 30     703
+Less than 5      460
+Name: types_of_plants, dtype: int64
+[2022-04-20 21:13:59,407 - INFO] :: 
+1-2              500
+1                334
+2-3              277
+I don't drink    248
+3-4              103
+4+                69
+Name: drinks_per_session, dtype: int64
+[2022-04-20 21:13:59,412 - INFO] :: 
+Daily                            3516
+Rarely (a few times/month)       1650
+Regularly (3-5 times/week)       1522
+Occasionally (1-2 times/week)    1503
+Never                            1091
+Name: flossing_frequency, dtype: int64
+[2022-04-20 21:13:59,418 - INFO] :: 
+No     6083
+Yes    3069
+Name: softener, dtype: int64
+[2022-04-20 21:13:59,425 - INFO] :: 
+Never                         8749
+Rarely (a few times/month)     316
+Weekly                         239
+Name: smoking_frequency, dtype: int64
+[2022-04-20 21:13:59,448 - INFO] :: 
+q3    2980
+q2    2317
+q4    2177
+q1    1217
+Name: primer_plate, dtype: int64
+[2022-04-20 21:13:59,453 - INFO] :: 
+No     2771
+Yes     438
+Name: mental_illness, dtype: int64
+[2022-04-20 21:13:59,461 - INFO] :: 
+I have lived in my current state of residence for more than a year.    5975
+Within the past year                                                    247
+Within the past 3 months                                                197
+Within the past 6 months                                                163
+Name: last_move, dtype: int64
+[2022-04-20 21:13:59,468 - INFO] :: 
+One              3159
+Two              1721
+Less than one     629
+Three             530
+Four or more      206
+Name: bowel_movement_frequency, dtype: int64
+[2022-04-20 21:13:59,473 - INFO] :: 
+Never                            3350
+Rarely (less than once/week)     2081
+Occasionally (1-2 times/week)     871
+Regularly (3-5 times/week)        227
+Daily                              28
+Name: ready_to_eat_meals_frequency, dtype: int64
+[2022-04-20 21:13:59,479 - INFO] :: 
+Yes         7435
+No          1361
+Not sure     422
+Name: chickenpox, dtype: int64
+[2022-04-20 21:13:59,485 - INFO] :: 
+No     889
+Yes     66
+Name: specialized_diet_modified_paleo_diet, dtype: int64
+[2022-04-20 21:13:59,490 - INFO] :: 
+Occasionally (1-2 times/week)    2760
+Rarely (less than once/week)     2021
+Regularly (3-5 times/week)        869
+Never                             822
+Daily                              65
+Name: seafood_frequency, dtype: int64
+[2022-04-20 21:13:59,497 - INFO] :: 
+Never                           4724
+Rarely (less than once/week)    1276
+Weekly                           532
+Name: sugar_sweetened_drink_frequency, dtype: int64
+[2022-04-20 21:13:59,503 - INFO] :: 
+No     9335
+Yes     176
+Name: allergic_to_shellfish, dtype: int64
+[2022-04-20 21:13:59,509 - INFO] :: 
+No     8769
+Yes     742
+Name: non_food_allergies_poison_ivyoak, dtype: int64
+[2022-04-20 21:13:59,515 - INFO] :: 
+No     7331
+Yes    1825
+Name: nail_biter, dtype: int64
+[2022-04-20 21:13:59,521 - INFO] :: 
+No     5068
+Yes     883
+Name: ibs, dtype: int64
+[2022-04-20 21:13:59,527 - INFO] :: 
+No          7961
+Yes          953
+Not sure     332
+Name: csection, dtype: int64
+[2022-04-20 21:13:59,532 - INFO] :: 
+I have not gotten the flu vaccine in the past year.    5352
+6 months                                               1834
+Year                                                   1678
+Month                                                   302
+Week                                                     67
+Name: flu_vaccine_date, dtype: int64
+[2022-04-20 21:13:59,538 - INFO] :: 
+I have not been outside of my country of residence in the past year.    4264
+1 year                                                                  1522
+3 months                                                                1242
+6 months                                                                1170
+Month                                                                    973
+Name: last_travel, dtype: int64
+[2022-04-20 21:13:59,543 - INFO] :: 
+LDG    4538
+JG      987
+LG      863
+GG      624
+MM      208
+EL      146
+LGD      77
+EZL      67
+GH       59
+CH       54
+Name: plating, dtype: int64
+[2022-04-20 21:13:59,549 - INFO] :: 
+No     8485
+Yes     721
+Name: acne_medication_otc, dtype: int64
+[2022-04-20 21:13:59,555 - INFO] :: 
+No     2892
+Yes     371
+Name: pets_other, dtype: int64
+[2022-04-20 21:13:59,560 - INFO] :: 
+No     2572
+Yes     482
+Name: acid_reflux, dtype: int64
+[2022-04-20 21:13:59,566 - INFO] :: 
+AG19    741
+AG22    509
+AG34    430
+AG18    423
+AG31    394
+AG24    388
+AG23    370
+AG1     367
+AG36    355
+AG21    354
+AG35    353
+AG27    348
+AG26    337
+AG11    324
+AG37    319
+AG38    317
+AG13    298
+AG10    295
+AG8     270
+AG7     266
+AG2     250
+AG44    228
+AG33    198
+AG39    163
+AG29    158
+AG17    150
+AG9     137
+AG14    127
+AG25    126
+AG15     88
+AG30     77
+AG6      72
+AG12     63
+AG16     59
+AG42     54
+AG28     45
+AG40     18
+AG46     13
+AG41      9
+AG43      8
+AG5       4
+AG3       3
+AG45      1
+AG61      1
+AG48      1
+Name: center_project_name, dtype: int64
+[2022-04-20 21:13:59,573 - INFO] :: 
+Never                         1416
+Rarely (a few times/month)    1308
+Weekly                         481
+Name: vivid_dreams, dtype: int64
+[2022-04-20 21:13:59,579 - INFO] :: 
+No          8235
+Yes          957
+Not sure      30
+Name: appendix_removed, dtype: int64
+[2022-04-20 21:13:59,585 - INFO] :: 
+No     6789
+Yes    1659
+Name: skin_condition, dtype: int64
+[2022-04-20 21:13:59,590 - INFO] :: 
+I am right handed    8107
+I am left handed      870
+I am ambidextrous     235
+Name: dominant_hand, dtype: int64
+[2022-04-20 21:13:59,595 - INFO] :: 
+City        4363
+Filtered    3297
+Bottled      860
+Well         699
+Not sure      96
+Name: drinking_water_source, dtype: int64
+[2022-04-20 21:13:59,602 - INFO] :: 
+No     9319
+Yes     192
+Name: non_food_allergies_beestings, dtype: int64
+[2022-04-20 21:13:59,607 - INFO] :: 
+Occasionally (1-2 times/week)    1732
+Rarely (less than once/week)     1660
+Regularly (3-5 times/week)       1440
+Daily                             869
+Never                             859
+Name: sugary_sweets_frequency, dtype: int64
+[2022-04-20 21:13:59,612 - INFO] :: 
+Regularly (3-5 times/week)       1714
+Daily                            1487
+Occasionally (1-2 times/week)    1285
+Rarely (less than once/week)     1093
+Never                             964
+Name: milk_cheese_frequency, dtype: int64
+[2022-04-20 21:13:59,618 - INFO] :: 
+No     5682
+Yes     719
+Name: autoimmune, dtype: int64
+[2022-04-20 21:13:59,624 - INFO] :: 
+Yes    5076
+No     4150
+Name: other_supplement_frequency, dtype: int64
+[2022-04-20 21:13:59,629 - INFO] :: 
+No     4795
+Yes    1398
+Name: clinical_condition, dtype: int64
+[2022-04-20 21:13:59,634 - INFO] :: 
+HOWE_KF2           1840
+HOWE_KF1           1749
+NEWE               1183
+HOWE               1133
+HOWE_KF3            442
+CARMEN              354
+HOWE_KF4            222
+HowE                211
+CARMEN_KF4          200
+CARMEN_KF1          127
+CARMEN_KF3           82
+NewE                 59
+CARMEN_KF2           21
+CARMEN_HOWE_KF4       1
+Name: extraction_robot, dtype: int64
+[2022-04-20 21:13:59,640 - INFO] :: 
+Rarely (less than once/week)     2251
+Never                            2143
+Occasionally (1-2 times/week)     909
+Regularly (3-5 times/week)        642
+Daily                             499
+Name: fermented_plant_frequency, dtype: int64
+[2022-04-20 21:13:59,645 - INFO] :: 
+No     7706
+Yes     762
+Name: migraine, dtype: int64
+[2022-04-20 21:13:59,651 - INFO] :: 
+No     9364
+Yes     147
+Name: non_food_allergies_sun, dtype: int64
+[2022-04-20 21:13:59,658 - INFO] :: 
+Rarely (less than once/week)    3384
+Never                           1942
+Weekly                          1226
+Name: frozen_dessert_frequency, dtype: int64
+[2022-04-20 21:13:59,664 - INFO] :: 
+No     5515
+Yes    3577
+Name: seasonal_allergies, dtype: int64
+[2022-04-20 21:13:59,670 - INFO] :: 
+Never                            2718
+Rarely (a few times/month)       1309
+Daily                            1191
+Regularly (3-5 times/week)        698
+Occasionally (1-2 times/week)     651
+Name: probiotic_frequency, dtype: int64
+[2022-04-20 21:13:59,675 - INFO] :: 
+Primarily breast milk                   3031
+Primarily infant formula                1655
+A mixture of breast milk and formula    1027
+Not sure                                 846
+Name: fed_as_infant, dtype: int64
+[2022-04-20 21:13:59,681 - INFO] :: 
+No     6420
+Yes    2871
+Name: dog, dtype: int64
+[2022-04-20 21:13:59,687 - INFO] :: 
+Graduate or Professional degree         2992
+Bachelor's degree                       1615
+Some college or technical school         641
+Some graduate school or professional     480
+High School or GED equilivant            266
+Did not complete high school             216
+Associate's degree                       163
+Name: level_of_education, dtype: int64
+[2022-04-20 21:13:59,692 - INFO] :: 
+Rarely (less than once/week)     2634
+Occasionally (1-2 times/week)    2343
+Regularly (3-5 times/week)        912
+Never                             514
+Daily                             164
+Name: prepared_meals_frequency, dtype: int64
+[2022-04-20 21:13:59,699 - INFO] :: 
+Never                         4401
+Rarely (a few times/month)    3691
+Weekly                        1189
+Name: pool_frequency, dtype: int64
+[2022-04-20 21:13:59,706 - INFO] :: 
+Both                     3223
+Outdoors                 2685
+Indoors                  1948
+Depends on the season     979
+Name: exercise_location, dtype: int64
+[2022-04-20 21:13:59,712 - INFO] :: 
+CA             1579
+England         756
+MA              481
+CO              433
+NY              397
+               ... 
+mazowieckie       1
+LI                1
+Jiangsu           1
+VS                1
+Vorarlberg        1
+Name: state, Length: 143, dtype: int64
+[2022-04-20 21:13:59,719 - INFO] :: 
+Daily                            3373
+Regularly (3-5 times/week)       2292
+Occasionally (1-2 times/week)     632
+Less than weekly                  241
+Name: vegetable_frequency, dtype: int64
+[2022-04-20 21:13:59,724 - INFO] :: 
+No     8115
+Yes     801
+Name: lung_disease, dtype: int64
+[2022-04-20 21:13:59,730 - INFO] :: 
+No     6178
+Yes    3077
+Name: multivitamin, dtype: int64
+[2022-04-20 21:13:59,737 - INFO] :: 
+No                                               7143
+Yes, I am taking the "pill"                       368
+Yes, I use a hormonal IUD (Mirena)                155
+Yes, I use the NuvaRing                            38
+Yes, I use an injected contraceptive (DMPA)        21
+Yes, I use a contraceptive patch (Ortho-Evra)       8
+Name: contraceptive, dtype: int64
+[2022-04-20 21:13:59,742 - INFO] :: 
+Regularly (3-5 times/week)       2419
+Daily                            1698
+Occasionally (1-2 times/week)    1281
+Rarely (less than once/week)      704
+Never                             433
+Name: olive_oil, dtype: int64
+[2022-04-20 21:13:59,748 - INFO] :: 
+No     3318
+Yes      57
+Name: mental_illness_type_ptsd_posttraumatic_stress_disorder, dtype: int64
+[2022-04-20 21:13:59,754 - INFO] :: 
+No     6728
+Yes    2512
+Name: cat, dtype: int64
+[2022-04-20 21:13:59,759 - INFO] :: 
+Caucasian                    8348
+Asian or Pacific Islander     433
+Other                         275
+Hispanic                      199
+African American               67
+Name: race, dtype: int64
+[2022-04-20 21:13:59,765 - INFO] :: 
+Never                            5104
+Daily                            1796
+Regularly (3-5 times/week)        912
+Rarely (a few times/month)        848
+Occasionally (1-2 times/week)     592
+Name: cosmetics_frequency, dtype: int64
+[2022-04-20 21:13:59,772 - INFO] :: 
+I have not taken antibiotics in the past year.    6213
+Year                                              1394
+6 months                                          1162
+Month                                              492
+Name: antibiotic_history, dtype: int64
+[2022-04-20 21:13:59,772 - INFO] :: Filtered metadata shape: (9511, 94)
+[2022-04-20 21:13:59,776 - INFO] :: Bloom filtering...
+[2022-04-20 21:14:00,163 - INFO] :: Bloom filtered table shape: (21615, 9511)
+[2022-04-20 21:14:00,163 - INFO] :: Rarefying to 1250...
+[2022-04-20 21:14:04,624 - INFO] :: Rarefied filtered table shape: (19016, 9495)
+[2022-04-20 21:14:05,082 - INFO] :: Saved table to data/processed/table.disambig.rare.filt.biom!
+[2022-04-20 21:14:05,318 - INFO] :: Saved metadata to data/processed/metadata.disambig.filt.tsv!
+Total script time: 7.687777519226074

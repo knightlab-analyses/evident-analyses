@@ -5,14 +5,14 @@
 #SBATCH --mem=8G
 #SBATCH --time=6:00:00
 
-import logging
-import time
-
 import biom
 from bloom import remove_seqs, trim_seqs
 import numpy as np
 import pandas as pd
 import skbio
+
+from src.helper import get_logger, time_function
+
 
 def get_replacements_dict():
     replacements = dict()
@@ -62,19 +62,23 @@ def get_replacements_dict():
     return replacements
 
 
+@time_function
 def main():
-    logger = logging.getLogger("filter")
-    logger.setLevel(logging.INFO)
-    sh = logging.StreamHandler()
-    formatter = logging.Formatter(
-        "[%(asctime)s - %(name)s - %(levelname)s] :: %(message)s"
-    )
-    sh.setFormatter(formatter)
-    logger.addHandler(sh)
+    logger = get_logger()
 
-    tbl = biom.load_table("data/raw/table.raw.biom")
+    tbl = biom.load_table("data/intermediate/table.disambig.biom")
     samp_rename_dict = {x: f"S{x}" for x in tbl.ids()}
     tbl.update_ids(samp_rename_dict)
+    logger.info(f"Original table shape: {tbl.shape}")
+
+    logger.info(
+        "Filtering out features with fewer than 10 reads across "
+        "samples"
+    )
+    read_sums = tbl.sum(axis="observation")
+    feats_to_keep = tbl.ids("observation")[np.where(read_sums >= 10)]
+    tbl.filter(feats_to_keep, "observation")
+    logger.info(f"Filtered table shape: {tbl.shape}")
 
     na_vals = ["Not provided"]
     orig_md_file = "data/ref/ag_map_with_alpha.txt.quartiles.tsv"
@@ -100,41 +104,13 @@ def main():
     )
     orig_md = orig_md.drop(columns=cols_to_remove)
 
-    new_md_file = "data/raw/metadata.raw.tsv"
+    new_md_file = "data/intermediate/metadata.disambig.tsv"
     new_md = pd.read_table(new_md_file, sep="\t", index_col=0,
                            na_values=na_vals)
     new_md.index = "S" + new_md.index
 
     cols_in_common = set(orig_md.columns).intersection(new_md.columns)
     new_md = new_md[cols_in_common]
-
-    prep_md_file = "data/raw/metadata.prep.raw.tsv"
-    prep_md = pd.read_table(prep_md_file, sep="\t", index_col=0,
-                            na_values=na_vals)
-
-    prep_md.index = prep_md.index.str.extract("(10317\.\d+)", expand=False)
-    prep_md.index = "S" + prep_md.index
-    idx_to_keep = ~prep_md.index.duplicated(keep="first")
-    prep_cols_to_use = [
-        "center_project_name",
-        "extraction_robot",
-        "plating",
-        "processing_robot"
-    ]
-    prep_md = prep_md[prep_cols_to_use]
-    prep_md = prep_md.iloc[idx_to_keep]
-    logger.info(
-        "Including the following columns from redbiom prep metadata:"
-        f"\n{prep_cols_to_use}"
-    )
-    new_md = new_md.join(prep_md, how="inner")
-
-    bloom_seqs_file = "/home/grahman/software/bloom-analyses/data/newbloom.all.fna"
-    seqs = skbio.read(bloom_seqs_file, format="fasta")
-    length = min(map(len, tbl.ids(axis="observation")))
-    seqs = trim_seqs(seqs, seqlength=length)
-
-    logger.info(f"Original table shape: {tbl.shape}")
 
     samps_in_common = list(set(new_md.index).intersection(tbl.ids()))
     new_md = new_md.loc[samps_in_common]
@@ -237,6 +213,11 @@ def main():
 
     # Bloom filtering
     # github.com/knightlab-analyses/bloom-analyses/
+    bloom_seqs_file = "/home/grahman/software/bloom-analyses/data/newbloom.all.fna"
+    seqs = skbio.read(bloom_seqs_file, format="fasta")
+    length = min(map(len, tbl.ids(axis="observation")))
+    seqs = trim_seqs(seqs, seqlength=length)
+
     logger.info("Bloom filtering...")
     tbl = remove_seqs(tbl, seqs)
     logger.info(f"Bloom filtered table shape: {tbl.shape}")
@@ -244,19 +225,17 @@ def main():
     # Rarefying
     logger.info("Rarefying to 1250...")
     tbl_rare = tbl.subsample(1250)
-    logger.info(f"Rarefied filtered table shape: {tbl.shape}")
+    logger.info(f"Rarefied filtered table shape: {tbl_rare.shape}")
 
-    tbl_out = "data/processed/table.rare.filt.biom"
+    tbl_out = "data/processed/table.disambig.rare.filt.biom"
     with biom.util.biom_open(tbl_out, "w") as f:
         tbl_rare.to_hdf5(f, "rarefied")
     logger.info(f"Saved table to {tbl_out}!")
 
-    md_out = "data/processed/metadata.filt.tsv"
+    md_out = "data/processed/metadata.disambig.filt.tsv"
     new_md.to_csv(md_out, sep="\t", index=True)
     logger.info(f"Saved metadata to {md_out}!")
 
 
 if __name__ == "__main__":
-    start = time.time()
     main()
-    print(time.time() - start)

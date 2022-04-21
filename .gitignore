@@ -1,5 +1,8 @@
 *.swo
 *.swp
+*.pyc
+*.egg-info/
+*distance-matrix-u_unifrac.tsv
+*sepp_out/
 data/
-results/processed/sepp/
-results/distance-matrix-u_unifrac.tsv
+notebooks/.ipynb_checkpoints/

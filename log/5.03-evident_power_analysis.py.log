@@ -1,0 +1,109 @@
+[2022-04-20 22:15:47,143 - INFO] :: Loading distance matrix...
+[2022-04-20 22:16:16,752 - INFO] :: Finished loading distance matrix!
+/home/grahman/projects/evident/evident/utils.py:20: UserWarning: Data and metadata do not have the same sample IDs. Using 9495 samples common to both.
+  warn(msg)
+[2022-04-20 22:18:17,803 - INFO] :: 
+   alpha  ...                                             column
+0   0.01  ...  specialized_diet_other_restrictions_not_descri...
+1   0.05  ...  specialized_diet_other_restrictions_not_descri...
+2   0.10  ...  specialized_diet_other_restrictions_not_descri...
+3   0.01  ...  specialized_diet_other_restrictions_not_descri...
+4   0.05  ...  specialized_diet_other_restrictions_not_descri...
+
+[5 rows x 7 columns]
+[Parallel(n_jobs=8)]: Using backend MultiprocessingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done   1 tasks      | elapsed:    1.1s
+[Parallel(n_jobs=8)]: Done   2 tasks      | elapsed:    1.9s
+[Parallel(n_jobs=8)]: Done   3 tasks      | elapsed:    3.6s
+[Parallel(n_jobs=8)]: Done   4 tasks      | elapsed:    4.8s
+[Parallel(n_jobs=8)]: Done   5 tasks      | elapsed:    7.6s
+[Parallel(n_jobs=8)]: Done   6 tasks      | elapsed:   12.0s
+[Parallel(n_jobs=8)]: Done   7 tasks      | elapsed:   12.1s
+[Parallel(n_jobs=8)]: Done   8 tasks      | elapsed:   13.9s
+[Parallel(n_jobs=8)]: Done   9 tasks      | elapsed:   15.8s
+[Parallel(n_jobs=8)]: Done  10 tasks      | elapsed:   16.8s
+[Parallel(n_jobs=8)]: Done  11 tasks      | elapsed:   19.0s
+[Parallel(n_jobs=8)]: Done  12 tasks      | elapsed:   21.6s
+[Parallel(n_jobs=8)]: Done  13 tasks      | elapsed:   23.4s
+[Parallel(n_jobs=8)]: Done  14 tasks      | elapsed:   23.5s
+[Parallel(n_jobs=8)]: Done  15 tasks      | elapsed:   25.7s
+[Parallel(n_jobs=8)]: Done  16 tasks      | elapsed:   27.1s
+[Parallel(n_jobs=8)]: Done  17 tasks      | elapsed:   27.6s
+[Parallel(n_jobs=8)]: Done  18 tasks      | elapsed:   27.7s
+[Parallel(n_jobs=8)]: Done  19 tasks      | elapsed:   28.3s
+[Parallel(n_jobs=8)]: Done  20 tasks      | elapsed:   28.9s
+[Parallel(n_jobs=8)]: Done  21 tasks      | elapsed:   29.0s
+[Parallel(n_jobs=8)]: Done  22 tasks      | elapsed:   31.1s
+[Parallel(n_jobs=8)]: Done  23 tasks      | elapsed:   31.5s
+[Parallel(n_jobs=8)]: Done  24 tasks      | elapsed:   32.5s
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   32.8s
+[Parallel(n_jobs=8)]: Done  26 tasks      | elapsed:   33.4s
+[Parallel(n_jobs=8)]: Done  27 tasks      | elapsed:   33.5s
+[Parallel(n_jobs=8)]: Done  28 tasks      | elapsed:   33.6s
+[Parallel(n_jobs=8)]: Done  29 tasks      | elapsed:   34.1s
+[Parallel(n_jobs=8)]: Done  30 tasks      | elapsed:   36.2s
+[Parallel(n_jobs=8)]: Done  31 tasks      | elapsed:   36.4s
+[Parallel(n_jobs=8)]: Done  32 tasks      | elapsed:   36.7s
+[Parallel(n_jobs=8)]: Done  33 tasks      | elapsed:   39.1s
+[Parallel(n_jobs=8)]: Done  34 tasks      | elapsed:   39.7s
+[Parallel(n_jobs=8)]: Done  35 tasks      | elapsed:   40.2s
+[Parallel(n_jobs=8)]: Done  36 tasks      | elapsed:   42.8s
+[Parallel(n_jobs=8)]: Done  37 tasks      | elapsed:   43.8s
+[Parallel(n_jobs=8)]: Done  38 tasks      | elapsed:   44.3s
+[Parallel(n_jobs=8)]: Done  39 tasks      | elapsed:   45.1s
+[Parallel(n_jobs=8)]: Done  40 tasks      | elapsed:   45.3s
+[Parallel(n_jobs=8)]: Done  41 tasks      | elapsed:   46.7s
+[Parallel(n_jobs=8)]: Done  42 tasks      | elapsed:   48.0s
+[Parallel(n_jobs=8)]: Done  43 tasks      | elapsed:   48.2s
+[Parallel(n_jobs=8)]: Done  44 tasks      | elapsed:   48.9s
+[Parallel(n_jobs=8)]: Done  45 tasks      | elapsed:   51.8s
+[Parallel(n_jobs=8)]: Done  46 tasks      | elapsed:   55.2s
+[Parallel(n_jobs=8)]: Done  47 tasks      | elapsed:   56.3s
+[Parallel(n_jobs=8)]: Done  48 tasks      | elapsed:   58.2s
+[Parallel(n_jobs=8)]: Done  49 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=8)]: Done  50 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=8)]: Done  51 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=8)]: Done  52 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=8)]: Done  53 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=8)]: Done  54 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=8)]: Done  55 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=8)]: Done  56 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=8)]: Done  57 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=8)]: Done  58 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=8)]: Done  59 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=8)]: Done  60 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=8)]: Done  61 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=8)]: Done  62 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=8)]: Done  63 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=8)]: Done  64 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=8)]: Done  65 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=8)]: Done  66 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=8)]: Done  67 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=8)]: Done  68 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=8)]: Done  69 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=8)]: Done  70 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=8)]: Done  71 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=8)]: Done  72 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=8)]: Done  73 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=8)]: Done  74 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=8)]: Done  75 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=8)]: Done  76 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=8)]: Done  77 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=8)]: Done  78 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=8)]: Done  79 tasks      | elapsed:  1.6min
+[Parallel(n_jobs=8)]: Done  80 out of  94 | elapsed:  1.6min remaining:   16.7s
+[Parallel(n_jobs=8)]: Done  81 out of  94 | elapsed:  1.6min remaining:   15.5s
+[Parallel(n_jobs=8)]: Done  82 out of  94 | elapsed:  1.6min remaining:   14.1s
+[Parallel(n_jobs=8)]: Done  83 out of  94 | elapsed:  1.6min remaining:   12.9s
+[Parallel(n_jobs=8)]: Done  84 out of  94 | elapsed:  1.7min remaining:   11.9s
+[Parallel(n_jobs=8)]: Done  85 out of  94 | elapsed:  1.7min remaining:   10.6s
+[Parallel(n_jobs=8)]: Done  86 out of  94 | elapsed:  1.7min remaining:    9.4s
+[Parallel(n_jobs=8)]: Done  87 out of  94 | elapsed:  1.7min remaining:    8.4s
+[Parallel(n_jobs=8)]: Done  88 out of  94 | elapsed:  1.8min remaining:    7.4s
+[Parallel(n_jobs=8)]: Done  89 out of  94 | elapsed:  1.8min remaining:    6.1s
+[Parallel(n_jobs=8)]: Done  90 out of  94 | elapsed:  1.8min remaining:    4.9s
+[Parallel(n_jobs=8)]: Done  91 out of  94 | elapsed:  1.9min remaining:    3.7s
+[Parallel(n_jobs=8)]: Done  92 out of  94 | elapsed:  1.9min remaining:    2.4s
+[Parallel(n_jobs=8)]: Done  94 out of  94 | elapsed:  2.0min remaining:    0.0s
+[Parallel(n_jobs=8)]: Done  94 out of  94 | elapsed:  2.0min finished
+Total script time: 150.98227643966675

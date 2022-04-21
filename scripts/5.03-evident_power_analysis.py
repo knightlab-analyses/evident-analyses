@@ -7,27 +7,20 @@
 #SBATCH --mem-per-cpu=16G
 #SBATCH --time=6:00:00
 
-import logging
-import time
-
 import evident
 from joblib import Parallel, delayed
 import numpy as np
 import pandas as pd
 from skbio import DistanceMatrix
 
+from src.helper import get_logger, time_function
 
+
+@time_function
 def main():
-    logger = logging.getLogger("evident")
-    logger.setLevel(logging.INFO)
-    sh = logging.StreamHandler()
-    formatter = logging.Formatter(
-        "[%(asctime)s - %(name)s - %(levelname)s] :: %(message)s"
-    )
-    sh.setFormatter(formatter)
-    logger.addHandler(sh)
+    logger = get_logger()
 
-    md_file = "data/processed/metadata.filt.tsv"
+    md_file = "data/processed/metadata.disambig.filt.tsv"
     md = pd.read_table(md_file, sep="\t", index_col=0)
 
     logger.info("Loading distance matrix...")
@@ -60,6 +53,4 @@ def main():
 
 
 if __name__ == "__main__":
-    start = time.time()
     main()
-    print(f"Total time: {time.time() - start}")

@@ -12,13 +12,13 @@ date; pwd; hostname
 
 source ~/miniconda3/bin/activate evident-analyses
 
-TBL="data/processed/table.rare.filt.biom"
+TBL="data/processed/table.disambig.rare.filt.biom"
 FNA=$(realpath "data/processed/seqs.fna")
 python -c "import biom; t = biom.load_table('$TBL'); f = open('$FNA', 'w'); f.write(''.join(['>%s\n%s\n' % (i, i.upper()) for i in t.ids(axis='observation')]))"
 
 SEPP="/home/grahman/software/sepp-package/run-sepp.sh"
 
-OUTDIR="results/processed/sepp"
+OUTDIR="results/sepp_out"
 mkdir -p $OUTDIR
 cd $OUTDIR
 
