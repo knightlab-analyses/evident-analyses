@@ -1,0 +1,128 @@
+[2022-05-04 08:44:09,882 - INFO] :: Starting parallel function...
+[2022-05-04 08:44:09,991 - INFO] :: Loading distance matrix...
+[2022-05-04 08:44:39,660 - INFO] :: Finished loading distance matrix!
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/evident/utils.py:20: UserWarning: Data and metadata do not have the same sample IDs. Using 9495 samples common to both.
+  warn(msg)
+[2022-05-04 08:44:41,846 - INFO] :: Calculating effect sizes...
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/fromnumeric.py:3724: RuntimeWarning: Degrees of freedom <= 0 for slice
+  **kwargs)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
+  subok=False)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/fromnumeric.py:3441: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:189: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+[2022-05-04 08:48:15,168 - INFO] :: Parallel runtime: 213.32116627693176
+[2022-05-04 08:48:15,270 - INFO] :: Starting serial function...
+[2022-05-04 08:48:15,382 - INFO] :: Loading distance matrix...
+[2022-05-04 08:48:44,791 - INFO] :: Finished loading distance matrix!
+[2022-05-04 08:48:46,897 - INFO] :: Calculating effect sizes...
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/fromnumeric.py:3724: RuntimeWarning: Degrees of freedom <= 0 for slice
+  **kwargs)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
+  subok=False)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/fromnumeric.py:3441: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/grahman/miniconda3/envs/evident-analyses/lib/python3.7/site-packages/numpy/core/_methods.py:189: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+[2022-05-04 09:01:08,195 - INFO] :: Serial runtime: 741.297961473465
+[Parallel(n_jobs=4)]: Using backend MultiprocessingBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    7.2s
+[Parallel(n_jobs=4)]: Done   2 tasks      | elapsed:    9.1s
+[Parallel(n_jobs=4)]: Done   3 tasks      | elapsed:   10.5s
+[Parallel(n_jobs=4)]: Done   4 tasks      | elapsed:   14.7s
+[Parallel(n_jobs=4)]: Done   5 tasks      | elapsed:   17.7s
+[Parallel(n_jobs=4)]: Done   6 tasks      | elapsed:   17.7s
+[Parallel(n_jobs=4)]: Done   7 tasks      | elapsed:   23.8s
+[Parallel(n_jobs=4)]: Done   8 tasks      | elapsed:   30.7s
+[Parallel(n_jobs=4)]: Done   9 tasks      | elapsed:   34.4s
+[Parallel(n_jobs=4)]: Done  10 tasks      | elapsed:   35.7s
+[Parallel(n_jobs=4)]: Done  11 tasks      | elapsed:   38.8s
+[Parallel(n_jobs=4)]: Done  12 tasks      | elapsed:   39.1s
+[Parallel(n_jobs=4)]: Done  13 tasks      | elapsed:   39.9s
+[Parallel(n_jobs=4)]: Done  14 tasks      | elapsed:   40.9s
+[Parallel(n_jobs=4)]: Done  15 tasks      | elapsed:   41.7s
+[Parallel(n_jobs=4)]: Done  16 tasks      | elapsed:   45.7s
+[Parallel(n_jobs=4)]: Done  17 tasks      | elapsed:   46.4s
+[Parallel(n_jobs=4)]: Done  18 tasks      | elapsed:   46.7s
+[Parallel(n_jobs=4)]: Done  19 tasks      | elapsed:   49.6s
+[Parallel(n_jobs=4)]: Done  20 tasks      | elapsed:   53.3s
+[Parallel(n_jobs=4)]: Done  21 tasks      | elapsed:   56.8s
+[Parallel(n_jobs=4)]: Done  22 tasks      | elapsed:   59.6s
+[Parallel(n_jobs=4)]: Done  23 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=4)]: Done  24 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=4)]: Done  25 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=4)]: Done  26 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=4)]: Done  27 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=4)]: Done  28 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=4)]: Done  29 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=4)]: Done  30 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=4)]: Done  31 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=4)]: Done  32 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=4)]: Done  33 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=4)]: Done  34 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=4)]: Done  35 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=4)]: Done  36 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=4)]: Done  37 tasks      | elapsed:  1.6min
+[Parallel(n_jobs=4)]: Done  38 tasks      | elapsed:  1.6min
+[Parallel(n_jobs=4)]: Done  39 tasks      | elapsed:  1.6min
+[Parallel(n_jobs=4)]: Done  40 tasks      | elapsed:  1.6min
+[Parallel(n_jobs=4)]: Done  41 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=4)]: Done  42 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=4)]: Done  43 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=4)]: Done  44 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=4)]: Done  45 tasks      | elapsed:  1.9min
+[Parallel(n_jobs=4)]: Done  46 tasks      | elapsed:  2.0min
+[Parallel(n_jobs=4)]: Done  47 tasks      | elapsed:  2.0min
+[Parallel(n_jobs=4)]: Done  48 tasks      | elapsed:  2.1min
+[Parallel(n_jobs=4)]: Done  49 tasks      | elapsed:  2.2min
+[Parallel(n_jobs=4)]: Done  50 tasks      | elapsed:  2.2min
+[Parallel(n_jobs=4)]: Done  51 tasks      | elapsed:  2.2min
+[Parallel(n_jobs=4)]: Done  52 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=4)]: Done  53 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=4)]: Done  54 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=4)]: Done  55 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=4)]: Done  56 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=4)]: Done  57 tasks      | elapsed:  2.4min
+[Parallel(n_jobs=4)]: Done  58 tasks      | elapsed:  2.4min
+[Parallel(n_jobs=4)]: Done  59 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=4)]: Done  60 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=4)]: Done  61 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=4)]: Done  62 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=4)]: Done  63 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=4)]: Done  64 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=4)]: Done  65 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=4)]: Done  66 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=4)]: Done  67 tasks      | elapsed:  2.6min
+[Parallel(n_jobs=4)]: Done  68 tasks      | elapsed:  2.6min
+[Parallel(n_jobs=4)]: Done  69 tasks      | elapsed:  2.7min
+[Parallel(n_jobs=4)]: Done  70 tasks      | elapsed:  2.7min
+[Parallel(n_jobs=4)]: Done  71 tasks      | elapsed:  2.7min
+[Parallel(n_jobs=4)]: Done  72 tasks      | elapsed:  2.8min
+[Parallel(n_jobs=4)]: Done  73 tasks      | elapsed:  2.8min
+[Parallel(n_jobs=4)]: Done  74 tasks      | elapsed:  2.8min
+[Parallel(n_jobs=4)]: Done  75 tasks      | elapsed:  2.8min
+[Parallel(n_jobs=4)]: Done  76 tasks      | elapsed:  2.8min
+[Parallel(n_jobs=4)]: Done  77 tasks      | elapsed:  2.8min
+[Parallel(n_jobs=4)]: Done  78 tasks      | elapsed:  2.9min
+[Parallel(n_jobs=4)]: Done  79 tasks      | elapsed:  2.9min
+[Parallel(n_jobs=4)]: Done  80 tasks      | elapsed:  3.0min
+[Parallel(n_jobs=4)]: Done  81 tasks      | elapsed:  3.1min
+[Parallel(n_jobs=4)]: Done  82 tasks      | elapsed:  3.1min
+[Parallel(n_jobs=4)]: Done  83 tasks      | elapsed:  3.1min
+[Parallel(n_jobs=4)]: Done  84 tasks      | elapsed:  3.1min
+[Parallel(n_jobs=4)]: Done  85 tasks      | elapsed:  3.2min
+[Parallel(n_jobs=4)]: Done  86 tasks      | elapsed:  3.3min
+[Parallel(n_jobs=4)]: Done  87 tasks      | elapsed:  3.3min
+[Parallel(n_jobs=4)]: Done  88 out of  94 | elapsed:  3.3min remaining:   13.6s
+[Parallel(n_jobs=4)]: Done  89 out of  94 | elapsed:  3.4min remaining:   11.3s
+[Parallel(n_jobs=4)]: Done  90 out of  94 | elapsed:  3.4min remaining:    9.0s
+[Parallel(n_jobs=4)]: Done  91 out of  94 | elapsed:  3.4min remaining:    6.7s
+[Parallel(n_jobs=4)]: Done  92 out of  94 | elapsed:  3.4min remaining:    4.5s
+[Parallel(n_jobs=4)]: Done  94 out of  94 | elapsed:  3.5min remaining:    0.0s
+[Parallel(n_jobs=4)]: Done  94 out of  94 | elapsed:  3.5min finished
+Total script time: 1018.3540368080139
